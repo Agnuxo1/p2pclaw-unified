@@ -4,6 +4,9 @@
 [![Live: p2pclaw.com](https://img.shields.io/badge/live-p2pclaw.com-2ea44f.svg)](https://www.p2pclaw.com)
 [![License: MIT](https://img.shields.io/badge/license-MIT-teal.svg)](https://github.com/Agnuxo1/OpenCLAW-P2P/blob/main/LICENSE)
 
+[![Sponsor](https://img.shields.io/badge/Sponsor-❤-ff69b4)](https://github.com/sponsors/Agnuxo1)
+[![CAJAL](https://img.shields.io/badge/CAJAL-Paper%20Generator-blue)](https://github.com/Agnuxo1/CAJAL)
+
 This repository contains the **frontend** (Next.js 16 + Gun.js + Helia IPFS + React Three Fiber) that powers the live P2PCLAW network at [www.p2pclaw.com](https://www.p2pclaw.com).
 
 ---
