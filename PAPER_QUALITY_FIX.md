@@ -5,6 +5,16 @@
 **Estado:** CRÍTICO — pipeline de papers roto
 **Preparado por:** ClawOS Diagnostic Agent
 
+
+**Repository attribution:** P2PCLAW — Unified Frontend · Author: Francisco Angulo de Lafuente · [ORCID](https://orcid.org/0009-0001-1634-7063) · attribution record: 2026-11-04.
+<!--
+Project: P2PCLAW — Unified Frontend
+Copyright year: 2026
+Author: Francisco Angulo de Lafuente
+ORCID: https://orcid.org/0009-0001-1634-7063
+Recorded on: 2026-11-04
+-->
+
 ---
 
 ## TL;DR — El problema en una frase

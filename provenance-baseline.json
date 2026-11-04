@@ -1,0 +1,1856 @@
+{
+  "repository": "Agnuxo1/p2pclaw-unified",
+  "canonical_url": "https://github.com/Agnuxo1/p2pclaw-unified",
+  "snapshot_commit": "24fa479684eda3e97b7f52aebe7c8d1203195046",
+  "snapshot_tree": "be054b483173f91fa9e95159dd9b890761466e6b",
+  "recorded_on": "2026-11-04",
+  "method": "All 259 original paths are fingerprinted from canonical Git blob bytes at snapshot_commit. SHA-256 is computed over exact blob bytes; git_blob_sha1 records each Git object ID. Selected excerpts are exact original lines for manual comparison.",
+  "tracked_paths": 259,
+  "files": [
+    {
+      "path": ".github/FUNDING.yml",
+      "size_bytes": 140,
+      "encoding": "utf-8",
+      "git_blob_sha1": "1af6ec3cd5e219edcd833cd01ebb2fc2b6cacd56",
+      "sha256": "7895283560d62786e0ff0a1cc1963aaac440ce65def4965fb08206823c44a4fd"
+    },
+    {
+      "path": ".github/workflows/intellectual_shifts.yml.disabled",
+      "size_bytes": 810,
+      "encoding": "utf-8",
+      "git_blob_sha1": "8aa698a253d563d838749c6bca894e478273577f",
+      "sha256": "8a836a2d2171f39f07c0fd8ad8218b1f1394c846d043f06e02796a3eb5d9174c"
+    },
+    {
+      "path": ".github/workflows/relay-pinger.yml",
+      "size_bytes": 3752,
+      "encoding": "utf-8",
+      "git_blob_sha1": "746ab24336fd86dc7ada9741ccc0410b4cd27059",
+      "sha256": "7a46a2b84a87f4a1d1f5b0d0a95086d00b8347fa1d1e0b0f49a4727f34cbd0cb"
+    },
+    {
+      "path": ".github/workflows/seed_growth.yml.disabled",
+      "size_bytes": 8720,
+      "encoding": "utf-8",
+      "git_blob_sha1": "9ecb5b3b511783e784241737099c0ad04335cfa9",
+      "sha256": "a76c6ea1b18ea6350112f6cf8a02b93b334ede406abe46670fab0c00a658ce81"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 407,
+      "encoding": "utf-8",
+      "git_blob_sha1": "2ba5f20976ad78167a58a0d2be200ec909dd4be4",
+      "sha256": "57a8ad32d47b73a38e794f0295090e5a99716616c1ce7372cacd120ee9227c08"
+    },
+    {
+      "path": "brand/site-icon-source.png",
+      "size_bytes": 2575466,
+      "encoding": "binary",
+      "git_blob_sha1": "e64e778598f4cb7d8661b7ed88a87e07de4a3135",
+      "sha256": "2f21de4b2e3f1f2a2f2b5a35b472ce2977ce459a522c52e1d4b7a3a92488c162"
+    },
+    {
+      "path": "components.json",
+      "size_bytes": 467,
+      "encoding": "utf-8",
+      "git_blob_sha1": "03909d9d110439b118b8521e50026509ff7028f8",
+      "sha256": "66a3a48694af66913f8cdbb7fb37ebf27ac793e5063acf97f8c1d41c289899bb"
+    },
+    {
+      "path": "docs/readme/01-banner.gif",
+      "size_bytes": 541798,
+      "encoding": "binary",
+      "git_blob_sha1": "bf8f8bff08a4c2129175e27746a7c6ba05bacb1a",
+      "sha256": "42a29aca8d28645314b04158a28f6449f3435b3a28dc2ff1aa9aa705c35f4bfe"
+    },
+    {
+      "path": "docs/readme/02-front-door.gif",
+      "size_bytes": 756581,
+      "encoding": "binary",
+      "git_blob_sha1": "9f0573e00365598ac35badfecd71ec4f5d908b5a",
+      "sha256": "cf23446f93c83ff89fc68e31b99d16097d4c41da77c6db97c26110b01e7e4b43"
+    },
+    {
+      "path": "docs/readme/03-publication-flow.gif",
+      "size_bytes": 1066534,
+      "encoding": "binary",
+      "git_blob_sha1": "d864e87fd411f8068dc5c0ee3662c06c05c0925b",
+      "sha256": "89794aaf34a4ac3fcc6c4d11eb34f90e07dbbafd1087c5ee0e8f4781a2874b35"
+    },
+    {
+      "path": "docs/readme/04-stack-mesh.gif",
+      "size_bytes": 464771,
+      "encoding": "binary",
+      "git_blob_sha1": "0cf7cc6b403c2365a8bdd6bd320a1de3299e4f54",
+      "sha256": "7f87127aef1ea69e87d74380ea20e0c9c07ea173d6bbf094716a2bae5ef09546"
+    },
+    {
+      "path": "docs/readme/05-live-validator.gif",
+      "size_bytes": 192603,
+      "encoding": "binary",
+      "git_blob_sha1": "b027fd777538f88d819ee45eddeb76af5d84ea18",
+      "sha256": "1cac7a4aa9f50a84722641588a221e81280d6317d5dd88de23fbfa1878e20781"
+    },
+    {
+      "path": "docs/readme/06-background.gif",
+      "size_bytes": 146394,
+      "encoding": "binary",
+      "git_blob_sha1": "4b1dcb5b8d709e854185b721086e94d395846c06",
+      "sha256": "f863431d89af4a545c7a2d6f06e42a96bad5ef5dadf76ee294cf9f479efd8057"
+    },
+    {
+      "path": "docs/readme/07-applications.gif",
+      "size_bytes": 604063,
+      "encoding": "binary",
+      "git_blob_sha1": "75bf8be0fc1e2d086935872c586ce5b17c438281",
+      "sha256": "9cbb7b7cf903e7879381b53c0cb7738950d52dcb1b94c656cdaea14ac906fdad"
+    },
+    {
+      "path": "docs/readme/08-improvements.gif",
+      "size_bytes": 463434,
+      "encoding": "binary",
+      "git_blob_sha1": "c997cac77a81d4b8e5a000bace072def75ec17d5",
+      "sha256": "c2edce22138624e38139e975e8f065c74ddf187ee330ac28514348092165c6c6"
+    },
+    {
+      "path": "docs/readme/09-roadmap.gif",
+      "size_bytes": 308338,
+      "encoding": "binary",
+      "git_blob_sha1": "3a38d019973dd12095cc154623f65c9666f2e931",
+      "sha256": "d5e8b6683cf8e1293d7f17e1afea58a4dd96d4f17ca659ead77dec7dac145e0c"
+    },
+    {
+      "path": "llms.txt",
+      "size_bytes": 4545,
+      "encoding": "utf-8",
+      "git_blob_sha1": "54aec420c273d610293eb13cad51b131e1065bbb",
+      "sha256": "a3088585729a66d00ffd25d589d23ae4d9ea249e81a5db39f4f401d29ebee50f"
+    },
+    {
+      "path": "next.config.ts",
+      "size_bytes": 4553,
+      "encoding": "utf-8",
+      "git_blob_sha1": "a472b2d8d4d142778415bd848b09b1f194c66a7a",
+      "sha256": "1df0e1181a5ae4bdb90a7b6d5fe95b56c61903b874dfb158a2a7006222f833ea"
+    },
+    {
+      "path": "package-lock.json",
+      "size_bytes": 654633,
+      "encoding": "utf-8",
+      "git_blob_sha1": "223dfc47787f82db40a0afa6da4992ce9a92b165",
+      "sha256": "ece70b4e2507f2735b59341817c5ffeffc4c3cf4cb156abc1cce1bb4ebd57835"
+    },
+    {
+      "path": "package.json",
+      "size_bytes": 1975,
+      "encoding": "utf-8",
+      "git_blob_sha1": "16e42ea5a741e3be4d731ff8dacfd1c25dcd3d74",
+      "sha256": "5fce13e16ad8edc9ab3b610509ac495ee35deaf3b9a81dd3f78b2797f7b03377"
+    },
+    {
+      "path": "PAPER_QUALITY_FIX.md",
+      "size_bytes": 17389,
+      "encoding": "utf-8",
+      "git_blob_sha1": "8bd52b9a9caa5ddb78f1aae7cfd4de656c42b33c",
+      "sha256": "d01bb3ddca9061714b977473b8990c40a10517ba824db43456e5d3022a3db288"
+    },
+    {
+      "path": "paperclaw/.github/workflows/publish.yml",
+      "size_bytes": 1191,
+      "encoding": "utf-8",
+      "git_blob_sha1": "2e24dcafadfc864515a4e99be73280da1b241768",
+      "sha256": "99d72f069a6430ee6b5d6a1e05340867acc7430273d8561ff337533d50c469b1"
+    },
+    {
+      "path": "paperclaw/.gitignore",
+      "size_bytes": 123,
+      "encoding": "utf-8",
+      "git_blob_sha1": "f9af4d0d98f983a299be1607e9c5a32f457e58ba",
+      "sha256": "c792e6ebb5ccf51e8f9eda02cb7ea6f85ebdf746e6460d7d1cdbb9934e69efae"
+    },
+    {
+      "path": "paperclaw/brand/icon-128.png",
+      "size_bytes": 11623,
+      "encoding": "binary",
+      "git_blob_sha1": "c2c0a3a69f0c1b1fba33863526cc93f3c26cce43",
+      "sha256": "ccac060c13e406527b582c46bde571f0dc899ff546d896b6f7eacbb8bcd814ac"
+    },
+    {
+      "path": "paperclaw/brand/icon-16.png",
+      "size_bytes": 729,
+      "encoding": "binary",
+      "git_blob_sha1": "97e4e8154480766caa300d052e26e55f21b553de",
+      "sha256": "a340d5527fe8579f0060ca1fe43a56afc37556df619f12b2ba03bd20025fe327"
+    },
+    {
+      "path": "paperclaw/brand/icon-256.png",
+      "size_bytes": 29208,
+      "encoding": "binary",
+      "git_blob_sha1": "35ba84b2eed6bb716ff9f48ff0aa98d0a8e84897",
+      "sha256": "6918fa1fd7174a3b0c36ef85309c6931e75a213f3be1ec04069830140cf86c4d"
+    },
+    {
+      "path": "paperclaw/brand/icon-32.png",
+      "size_bytes": 1834,
+      "encoding": "binary",
+      "git_blob_sha1": "afdf764c9e5bbcfb0e2c2bf916f6dfbbd5eb0bb1",
+      "sha256": "32e5a0c70284b2080768a67a79b1c4b2a5089d86d21fcd16236a0b593bbe02f2"
+    },
+    {
+      "path": "paperclaw/brand/icon-48.png",
+      "size_bytes": 3177,
+      "encoding": "binary",
+      "git_blob_sha1": "c8c194c7a8813b8f4697f07121d1f92cf40ae297",
+      "sha256": "f61fde93846803d840b8ef69948bc463ef7afba457fde36449126aed881b6a88"
+    },
+    {
+      "path": "paperclaw/brand/icon-512.png",
+      "size_bytes": 68847,
+      "encoding": "binary",
+      "git_blob_sha1": "3c17732957a55f7982f6ff3b99efc47a8fa97850",
+      "sha256": "18d755e6f7eda08c3c2d5230f19dc90fa8d7e7e93747729cdb475ef47544b5c5"
+    },
+    {
+      "path": "paperclaw/brand/icon-64.png",
+      "size_bytes": 4612,
+      "encoding": "binary",
+      "git_blob_sha1": "31583c34b2e86523e0ef299d66e9b4fe75707c0d",
+      "sha256": "0f296d273e77e72f62bb658e8c0912e7d299179c996bebd1d1cb1187217bb663"
+    },
+    {
+      "path": "paperclaw/brand/icon.png",
+      "size_bytes": 11623,
+      "encoding": "binary",
+      "git_blob_sha1": "c2c0a3a69f0c1b1fba33863526cc93f3c26cce43",
+      "sha256": "ccac060c13e406527b582c46bde571f0dc899ff546d896b6f7eacbb8bcd814ac"
+    },
+    {
+      "path": "paperclaw/brand/icon.svg",
+      "size_bytes": 5489,
+      "encoding": "utf-8",
+      "git_blob_sha1": "c6da376cc4a6932a5a2b415c38957d6efadd46f9",
+      "sha256": "04dd06d1aa463680dec6d840e4c5d4fd43a38fe514f014e5f4eaceb72d5a878b"
+    },
+    {
+      "path": "paperclaw/cli/index.js",
+      "size_bytes": 12929,
+      "encoding": "utf-8",
+      "git_blob_sha1": "baa0e7189923765980162be3722d5e20e5534802",
+      "sha256": "eca2b0ff53ef87050613afaef5b74dcc0ac41673c6fa4f09f223294688e5c4ba"
+    },
+    {
+      "path": "paperclaw/cli/mcp.js",
+      "size_bytes": 8776,
+      "encoding": "utf-8",
+      "git_blob_sha1": "53b974b82d107f60cae24d984b83b86eba15ada0",
+      "sha256": "a1f2ec1512ac4506f0928dfbed42beded2c48170d83d25c72157760c405a0114"
+    },
+    {
+      "path": "paperclaw/core/index.js",
+      "size_bytes": 22583,
+      "encoding": "utf-8",
+      "git_blob_sha1": "baf1fd4ca1ecbc7e71885d3087556b77f0a5795f",
+      "sha256": "6cd31af7d886cf675e94924a882501ae344b166720e518c35f6c5350bf60f5a8"
+    },
+    {
+      "path": "paperclaw/core/pdf-generator.js",
+      "size_bytes": 8725,
+      "encoding": "utf-8",
+      "git_blob_sha1": "993085688cbd96f49a5bd959f8b01a3fa75f7b65",
+      "sha256": "6172d2c7e1ba0d6245c79df273d1d8026f6fd936ea5096a3c255f9b8d9e01dc5"
+    },
+    {
+      "path": "paperclaw/core/prompts.js",
+      "size_bytes": 5386,
+      "encoding": "utf-8",
+      "git_blob_sha1": "8b5ee9fcd1854b2a1adc16859d042f779acddf71",
+      "sha256": "b46de182c88a4dce187a0e1d9e8891b2894a6ed516bfce8b4656df9d7a09523c"
+    },
+    {
+      "path": "paperclaw/integrations/aider/.aider.conf.yml",
+      "size_bytes": 738,
+      "encoding": "utf-8",
+      "git_blob_sha1": "80e93fadf7d30c0d984b0fdca3ef47c2fcfd1b8c",
+      "sha256": "a894860a4bbdfe4a6cd9ad98fba4829717956d3e41091f292057f78143208987"
+    },
+    {
+      "path": "paperclaw/integrations/aider/CONVENTIONS-PAPERCLAW.md",
+      "size_bytes": 1101,
+      "encoding": "utf-8",
+      "git_blob_sha1": "924710bf392819ffd356587b1ab2bb4707f9fe31",
+      "sha256": "8d8afcb215f948502ebc7367f46872a3a5e7c5badad315d4d8c5b988079874ba"
+    },
+    {
+      "path": "paperclaw/integrations/anythingllm/paperclaw-agent.json",
+      "size_bytes": 4869,
+      "encoding": "utf-8",
+      "git_blob_sha1": "16dbd8464f9315f8e1201518282c7a5e2642a6ca",
+      "sha256": "7b68d5bad621524834b22b7f13d2a09c7ace34b617be2f29bd3c645f56dc87aa"
+    },
+    {
+      "path": "paperclaw/integrations/autogen/paperclaw_tool.py",
+      "size_bytes": 3125,
+      "encoding": "utf-8",
+      "git_blob_sha1": "fc73ed2d3051b90bf39399fb01f60d3a51f39a01",
+      "sha256": "5e8707a68ece0b8c1a879dbdbbf0d3b71fb88b1370a3e74f97f10e119fa330bc"
+    },
+    {
+      "path": "paperclaw/integrations/browser-extension/background.js",
+      "size_bytes": 5758,
+      "encoding": "utf-8",
+      "git_blob_sha1": "8fd28c531142dc6eade4fd91bafcf67411c60ee6",
+      "sha256": "5e79232a804a81698986bfbd145850b3b3a868014eebf1ff37d95ae81443cd01"
+    },
+    {
+      "path": "paperclaw/integrations/browser-extension/content.js",
+      "size_bytes": 7443,
+      "encoding": "utf-8",
+      "git_blob_sha1": "eccef2007439649b54d3bb8d1357b304b550a7bb",
+      "sha256": "f4abea456950fd82948c5b456d2bfe9e02a231b9a7c9035c24e11dc36ded6168"
+    },
+    {
+      "path": "paperclaw/integrations/browser-extension/manifest.json",
+      "size_bytes": 1235,
+      "encoding": "utf-8",
+      "git_blob_sha1": "7815084d13aa357aa4a38a810122e8cf64414f96",
+      "sha256": "264c75bd2ade4481b06ef34be9d0a417cbd0134af26a39106cee45251cec6011"
+    },
+    {
+      "path": "paperclaw/integrations/browser-extension/popup.html",
+      "size_bytes": 3313,
+      "encoding": "utf-8",
+      "git_blob_sha1": "f981489f8349d2ed10ef9874dcecf25abf1318d1",
+      "sha256": "83b7f17e8018dd069b95559232cf4a0d1e43fbf7bb4955ea8df2216efcc0a877"
+    },
+    {
+      "path": "paperclaw/integrations/browser-extension/popup.js",
+      "size_bytes": 3274,
+      "encoding": "utf-8",
+      "git_blob_sha1": "14ae155ed737aa3ffa6913298b1fbe9a82e73940",
+      "sha256": "31b15152c1c5aed4bed18e0f486a30a1d098f0f34a91f4330fda133b137d751a"
+    },
+    {
+      "path": "paperclaw/integrations/chatbox/paperclaw-provider.json",
+      "size_bytes": 2024,
+      "encoding": "utf-8",
+      "git_blob_sha1": "458279e1cc6bdc88ff0d98d25216011f10e4e932",
+      "sha256": "25695bd8f4c2ebee7b41539f5ecb03041680d014bdfe99918f4cd9bb54227f1d"
+    },
+    {
+      "path": "paperclaw/integrations/cline/paperclaw-prompt.md",
+      "size_bytes": 1396,
+      "encoding": "utf-8",
+      "git_blob_sha1": "425858a6917ce9d2fe51f49ae2ccdd202727761f",
+      "sha256": "de12404e00334fc2daba4895ca94cb68950034cbd136f3e7e42b79a6372f87b4"
+    },
+    {
+      "path": "paperclaw/integrations/composio/paperclaw-action.json",
+      "size_bytes": 2251,
+      "encoding": "utf-8",
+      "git_blob_sha1": "456ee3898da6d3d4482e1b2dfda643656a14938d",
+      "sha256": "0cebb791b557346731896d64420edb3a6f2b587b73e8f7d5d336b94ac6f808e4"
+    },
+    {
+      "path": "paperclaw/integrations/continue/paperclaw-config.json",
+      "size_bytes": 2959,
+      "encoding": "utf-8",
+      "git_blob_sha1": "8a18c1e5eac0bed94a0d77793b0d19dece699186",
+      "sha256": "dc11dd02de6b99309ed87eb41fe7d5615a68a1d1173e3692c353de7dd41bef07"
+    },
+    {
+      "path": "paperclaw/integrations/crewai/paperclaw_tool.py",
+      "size_bytes": 3322,
+      "encoding": "utf-8",
+      "git_blob_sha1": "30bd5c5eaa8a4d74f57108b3eb66c04daac062d7",
+      "sha256": "c11ce090bde92bb74de8372b0b3c8d5d37ba3ebc77d56af626799a31a3c47347"
+    },
+    {
+      "path": "paperclaw/integrations/cursor/paperclaw-rules.md",
+      "size_bytes": 1885,
+      "encoding": "utf-8",
+      "git_blob_sha1": "40b6259e878f616d6ae2b8b529689b39d75510d2",
+      "sha256": "5b909d6b09cad8ba45d3149dc0f476f2862d771250ee767500f034672a2d61dc"
+    },
+    {
+      "path": "paperclaw/integrations/exo/paperclaw-cluster.json",
+      "size_bytes": 2277,
+      "encoding": "utf-8",
+      "git_blob_sha1": "d10684df343daf24cb6f7f0345afe0884cb9c7a0",
+      "sha256": "dae0c60fecdeaf15ce4411aa02c9cc8d1d483eed491bea7f8e603c869bb0c05d"
+    },
+    {
+      "path": "paperclaw/integrations/google-adk/paperclaw_tool.py",
+      "size_bytes": 2740,
+      "encoding": "utf-8",
+      "git_blob_sha1": "56700e0b6c307547fdea96b30449079656e9eff8",
+      "sha256": "bc4ca92dcc63d39524ee2b664eaa820a3411b30badee96ff09a22609ec741a25"
+    },
+    {
+      "path": "paperclaw/integrations/gpt4all/paperclaw-prompt.md",
+      "size_bytes": 1930,
+      "encoding": "utf-8",
+      "git_blob_sha1": "ac05f4dbfde03d43a9f7b56301e0fd1f49e4d837",
+      "sha256": "d08d2a1f3826c8dfefd8d5d8013dffa8261c24223a151877df115b4115aaf163"
+    },
+    {
+      "path": "paperclaw/integrations/haystack/paperclaw_component.py",
+      "size_bytes": 3631,
+      "encoding": "utf-8",
+      "git_blob_sha1": "43be905959aaac7cca369c23401162c7e1070513",
+      "sha256": "6e6b1f50da92c54eea2a3fa8ce024682ec7d810cdc92e5468e6b4e67235d6412"
+    },
+    {
+      "path": "paperclaw/integrations/huggingface/app.py",
+      "size_bytes": 4078,
+      "encoding": "utf-8",
+      "git_blob_sha1": "323deab77a9461147143a4723312a2ca8c8433e0",
+      "sha256": "f66fa255c17c7f1d1d5b47c9a5615a70094c92d878ca98476afd8a05afaa4b89"
+    },
+    {
+      "path": "paperclaw/integrations/jan/paperclaw-assistant.json",
+      "size_bytes": 2340,
+      "encoding": "utf-8",
+      "git_blob_sha1": "7366690a955f567095f2600ff87aebd8eb20d10f",
+      "sha256": "371b5e8ae4970865ba9cafe879780e8b621f5c6ce3c0aeeb518a1178916a0fe0"
+    },
+    {
+      "path": "paperclaw/integrations/koboldcpp/paperclaw-preset.json",
+      "size_bytes": 2187,
+      "encoding": "utf-8",
+      "git_blob_sha1": "538b55df77af717852f426670d64b1a3d7498a24",
+      "sha256": "d24a67d48be89a371db2b7e82f7c67827bdeff186c3a474cd425af50c2731f91"
+    },
+    {
+      "path": "paperclaw/integrations/langgraph/paperclaw_tool.py",
+      "size_bytes": 4438,
+      "encoding": "utf-8",
+      "git_blob_sha1": "3f5747a8598a63bef176b1b406fb5948a1ef362d",
+      "sha256": "bf2a5c27fc499e094e9c27767537af141206f524e042c29c3c9f1717ab7bc1e5"
+    },
+    {
+      "path": "paperclaw/integrations/librechat/paperclaw-endpoint.yaml",
+      "size_bytes": 2646,
+      "encoding": "utf-8",
+      "git_blob_sha1": "62e44d75b91b271559c49b329d3aad58ce5bb2fc",
+      "sha256": "a724494ce14a603de4bc56615a68b7f5fdd367320306e7962c08706fcfa8f94f"
+    },
+    {
+      "path": "paperclaw/integrations/llamacpp/paperclaw-server.sh",
+      "size_bytes": 4968,
+      "encoding": "utf-8",
+      "git_blob_sha1": "58bde6c1044a01e54744bbd03422ab77ef9fe065",
+      "sha256": "782d55798ba7722830ec244e82fa70a2224f6d2a00bdbb6995583d0704f640c7"
+    },
+    {
+      "path": "paperclaw/integrations/llamafile/paperclaw-run.sh",
+      "size_bytes": 2961,
+      "encoding": "utf-8",
+      "git_blob_sha1": "dbf6139837603e696c17bc68dab5d0d5e4efb105",
+      "sha256": "7d95e2d9a6c18bc6898b8024f9389ba90974b947219888d2fd4ab0cd87a68cae"
+    },
+    {
+      "path": "paperclaw/integrations/llamaindex/paperclaw_tool.py",
+      "size_bytes": 11014,
+      "encoding": "utf-8",
+      "git_blob_sha1": "31d0bd0a15089396b35b8d12da27a5e61982affb",
+      "sha256": "5f5a871726321aa18771ff9a1b50eed9770c361518bb414121fc929d05ad80ac"
+    },
+    {
+      "path": "paperclaw/integrations/lm-studio/paperclaw-preset.json",
+      "size_bytes": 1755,
+      "encoding": "utf-8",
+      "git_blob_sha1": "39c919df9e406a15738e843104696afa95c8b331",
+      "sha256": "4e913f3ee724bad5cfeaf3331533beee505b6c26ac0942c8bb7dd0298cfb4865"
+    },
+    {
+      "path": "paperclaw/integrations/lobechat/paperclaw-api.ts",
+      "size_bytes": 5422,
+      "encoding": "utf-8",
+      "git_blob_sha1": "584c8ffd3dbe815deebdefb3e65cdbd14bc5bec6",
+      "sha256": "4288137f76c1bd40edc9765fd41386b7e19c5ace9454f405ce8b8ec222956f90"
+    },
+    {
+      "path": "paperclaw/integrations/lobechat/paperclaw-plugin.json",
+      "size_bytes": 3679,
+      "encoding": "utf-8",
+      "git_blob_sha1": "036a2161be2cee4f0af798b16720c50e5bf4ea40",
+      "sha256": "a3e3f0b094a815814d54f78330204d0febc6e5da55f4bfe1c395fe799e1b9e6c"
+    },
+    {
+      "path": "paperclaw/integrations/localai/paperclaw-model.yaml",
+      "size_bytes": 2827,
+      "encoding": "utf-8",
+      "git_blob_sha1": "d9716f859ed8012ca92829bde7ee2012e79c3f30",
+      "sha256": "d9a8041fe20bb26083500cf3003b22dfb69c7eea106589354bd2f51b93d94bed"
+    },
+    {
+      "path": "paperclaw/integrations/mastra/paperclaw-tool.ts",
+      "size_bytes": 3183,
+      "encoding": "utf-8",
+      "git_blob_sha1": "bc36a8dc0fc5b5fae607ea5ec843d76ae15d7153",
+      "sha256": "c4502a84d94e9bf26e605dbdaa735349883620227ad7e3ff0ef4eb4e4a7b5afa"
+    },
+    {
+      "path": "paperclaw/integrations/mcp-server/paperclaw-mcp.js",
+      "size_bytes": 8776,
+      "encoding": "utf-8",
+      "git_blob_sha1": "53b974b82d107f60cae24d984b83b86eba15ada0",
+      "sha256": "a1f2ec1512ac4506f0928dfbed42beded2c48170d83d25c72157760c405a0114"
+    },
+    {
+      "path": "paperclaw/integrations/mlc-llm/paperclaw-config.json",
+      "size_bytes": 2111,
+      "encoding": "utf-8",
+      "git_blob_sha1": "8b7b7c1fdcc7cc65369c7d265423d808506de0e5",
+      "sha256": "4f7ace4e403a17ba40db3978e747d40f107a28a2df88e8bd39ee95fd99fc9a69"
+    },
+    {
+      "path": "paperclaw/integrations/n8n/nodes/PaperClaw/PaperClaw.node.ts",
+      "size_bytes": 4046,
+      "encoding": "utf-8",
+      "git_blob_sha1": "4b1ad0f9ec439887a335d5f2ba3dda0249c3f61c",
+      "sha256": "271c34f21b1086738622ef449c7bacebff0ee46d2a82916b6b5cc7b46a4fdf17"
+    },
+    {
+      "path": "paperclaw/integrations/n8n/nodes/PaperClaw/paperclaw.svg",
+      "size_bytes": 295,
+      "encoding": "utf-8",
+      "git_blob_sha1": "90771396bdd252c0b9ee0a3e0450e2b1d668d622",
+      "sha256": "4635854acc4c982fb00d9c47a16c052ba1d37a76c68bdb7bb7c878dc60bbca8c"
+    },
+    {
+      "path": "paperclaw/integrations/n8n/package.json",
+      "size_bytes": 1494,
+      "encoding": "utf-8",
+      "git_blob_sha1": "b5a3c8fd149f21fb0792e2f55dc21f9a95685e9b",
+      "sha256": "ebc608d79ada56e1c81ae8b17ea89ee2400b7ced6e5eedf078727830867dcc52"
+    },
+    {
+      "path": "paperclaw/integrations/n8n/paperclaw-node.js",
+      "size_bytes": 3106,
+      "encoding": "utf-8",
+      "git_blob_sha1": "3224fb4bb703e37005f1943121b6dc96f8ba0471",
+      "sha256": "216e09d8051463748370a89a3b734b488c1b457ef27289ea7b46ee487c513ac7"
+    },
+    {
+      "path": "paperclaw/integrations/n8n/tsconfig.json",
+      "size_bytes": 413,
+      "encoding": "utf-8",
+      "git_blob_sha1": "43271daadd50bf674ccc718de678947fef2a5796",
+      "sha256": "23f9e8a061fa818f22b7b65473f55211946f7f04a60353deb52a32b3c4de0f8b"
+    },
+    {
+      "path": "paperclaw/integrations/ollama/Modelfile",
+      "size_bytes": 2276,
+      "encoding": "utf-8",
+      "git_blob_sha1": "4ffb351a9dbfedd740ec99f972da6a2b092e5a4c",
+      "sha256": "bb1629321d1d75b3740d0a2b463de07c51f3a4c8c78ac44fd41c45d15e59c75d"
+    },
+    {
+      "path": "paperclaw/integrations/open-webui/paperclaw_pipe.py",
+      "size_bytes": 10426,
+      "encoding": "utf-8",
+      "git_blob_sha1": "f41f0b20ad86637bd2251668c0b8dcd7c1477c6d",
+      "sha256": "32a04d92482ce3d03b164b94fdf4d7f7a14c406dc1c24a8c6510510c0f339bd3"
+    },
+    {
+      "path": "paperclaw/integrations/open-webui/README.md",
+      "size_bytes": 860,
+      "encoding": "utf-8",
+      "git_blob_sha1": "641b59bfe3eb8807234096f555f4ab52fdcde9bc",
+      "sha256": "7de363ca918bc2eedf673f2b5bc08f00b13065bf5fa454bd561c19ed30fad338"
+    },
+    {
+      "path": "paperclaw/integrations/openai-agents/paperclaw_tool.py",
+      "size_bytes": 2721,
+      "encoding": "utf-8",
+      "git_blob_sha1": "cf39eee02a56e962528fab350edbbbba76ac7c73",
+      "sha256": "e19f7f5901c9751a8828760e93eb15e86bad5c0ddcbfd65a5780b3de9b8ec2ab"
+    },
+    {
+      "path": "paperclaw/integrations/openapi/paperclaw-openapi.json",
+      "size_bytes": 4608,
+      "encoding": "utf-8",
+      "git_blob_sha1": "98178b349fc3c9104bc4473189fa454c6341c5d9",
+      "sha256": "73bc090cc142e0db98fe0e65dd43059dd10b8a74a578bc43569a53451271645e"
+    },
+    {
+      "path": "paperclaw/integrations/opencode/paperclaw-rules.md",
+      "size_bytes": 2320,
+      "encoding": "utf-8",
+      "git_blob_sha1": "1c369bb8af01ac0172e090b77c96dd41a295397a",
+      "sha256": "da648003390348b8fb2bcc33473b3062007c56443eafdb2b6cdda43e363c484c"
+    },
+    {
+      "path": "paperclaw/integrations/pinokio/icon.png",
+      "size_bytes": 29208,
+      "encoding": "binary",
+      "git_blob_sha1": "35ba84b2eed6bb716ff9f48ff0aa98d0a8e84897",
+      "sha256": "6918fa1fd7174a3b0c36ef85309c6931e75a213f3be1ec04069830140cf86c4d"
+    },
+    {
+      "path": "paperclaw/integrations/pinokio/install.json",
+      "size_bytes": 5869,
+      "encoding": "utf-8",
+      "git_blob_sha1": "eb7d69bbce26ed7d88374155ed405b8d2ab98c99",
+      "sha256": "53286aa326420b4046933a2ac799800c33102280b201e4b5898eefaf0639ce4a"
+    },
+    {
+      "path": "paperclaw/integrations/pinokio/pinokio.js",
+      "size_bytes": 1483,
+      "encoding": "utf-8",
+      "git_blob_sha1": "d91d218565bfbca55194b0e10ee9d5b2af473053",
+      "sha256": "91677030a1b64f455816af1c1bcf659b0f52efc3332788e27c559dfbe1d620dc"
+    },
+    {
+      "path": "paperclaw/integrations/pinokio/reset.json",
+      "size_bytes": 244,
+      "encoding": "utf-8",
+      "git_blob_sha1": "a9035213ef87a57ab750fd6bd44a1b2124f46f7f",
+      "sha256": "6ee1e0906e8556f9b9c8e2e08419336719556055ab65bd2afce57d46da0c8530"
+    },
+    {
+      "path": "paperclaw/integrations/pinokio/start.json",
+      "size_bytes": 481,
+      "encoding": "utf-8",
+      "git_blob_sha1": "fdc797a14ef6d0ce1f8d0501322570bb676f50b7",
+      "sha256": "0756e93a2f5ea8f9b5ef9dc73ebeaef09829ca6e5e5bf8699166e5729984dc1b"
+    },
+    {
+      "path": "paperclaw/integrations/pydantic-ai/paperclaw_tool.py",
+      "size_bytes": 2387,
+      "encoding": "utf-8",
+      "git_blob_sha1": "562f649b45ac6065d11573e98b8853d8b836fc61",
+      "sha256": "8b53384ead44f461bda4350c591403e4b323a723fe00b5efbda6d428f66caa29"
+    },
+    {
+      "path": "paperclaw/integrations/semantic-kernel/PaperClawPlugin.cs",
+      "size_bytes": 3463,
+      "encoding": "utf-8",
+      "git_blob_sha1": "e8d767e4f0ed2a12539bded8cf5b8c13fe7dc7c4",
+      "sha256": "59311598e3f6c26c179c7a9ca0b722c180956d764729cb7a4d9c8972f7e31bf0"
+    },
+    {
+      "path": "paperclaw/integrations/semantic-kernel/PaperClawPlugin.py",
+      "size_bytes": 4546,
+      "encoding": "utf-8",
+      "git_blob_sha1": "ab4212995aacf218e9e73ae24dfe49b47e8c4453",
+      "sha256": "bbf1e955bff6196462ed5db07e45033572d6a6868250ef6df07bb337379014ab"
+    },
+    {
+      "path": "paperclaw/integrations/sillytavern/paperclaw-character.json",
+      "size_bytes": 4415,
+      "encoding": "utf-8",
+      "git_blob_sha1": "b1a497d5e5799df6992c0ab5b74fea2645acf83b",
+      "sha256": "b4daa8d5a555c7a04caa09848f1e1f42544302e1ba8650e584c0e11418639bb0"
+    },
+    {
+      "path": "paperclaw/integrations/text-generation-webui/paperclaw_extension/script.py",
+      "size_bytes": 8324,
+      "encoding": "utf-8",
+      "git_blob_sha1": "11b1fc387d6a303d5df5f5c93d58741c54ab6a6f",
+      "sha256": "44fd18940842f331777cab6b725dadefdda0799e9541f1ea4e3ae3bea4f448e1"
+    },
+    {
+      "path": "paperclaw/integrations/vllm/paperclaw-serve.sh",
+      "size_bytes": 3307,
+      "encoding": "utf-8",
+      "git_blob_sha1": "6379327da82bcd02e18288e7ee46b58caeeda19f",
+      "sha256": "1059eff5a43b7b11fb4c5d153175b7a490bcacc3fe5681c5fc45fc83f20cfb39"
+    },
+    {
+      "path": "paperclaw/integrations/void/paperclaw-config.md",
+      "size_bytes": 995,
+      "encoding": "utf-8",
+      "git_blob_sha1": "94d1fa5287937e3663c3df1ae29f1dff18736edd",
+      "sha256": "4f1ba6a844f7686f3100a82d9bb0ebb1621f2ee70e82359da033350b2e0aeb87"
+    },
+    {
+      "path": "paperclaw/integrations/windsurf/paperclaw-rules.md",
+      "size_bytes": 992,
+      "encoding": "utf-8",
+      "git_blob_sha1": "c577643c39e8a5c147a81e04f58a89e5c6a12800",
+      "sha256": "71d4c105c0231794cab8b89fe3de97cb494a37a8638dea40cd61f4a4206ec23b"
+    },
+    {
+      "path": "paperclaw/integrations/zed/paperclaw-slash-command.md",
+      "size_bytes": 1161,
+      "encoding": "utf-8",
+      "git_blob_sha1": "283465f450e0db5864745c80bd8a88bb6655df46",
+      "sha256": "a27ce519356fb82ad7f608ba72169cfafdeb78d6ee3b643e7ceab186ab039f6b"
+    },
+    {
+      "path": "paperclaw/LICENSE",
+      "size_bytes": 1085,
+      "encoding": "utf-8",
+      "git_blob_sha1": "6b6ab2d06c257064813b7b72f11780ffebee1046",
+      "sha256": "afa3de7e3edd0ad130afc2f31d1f8dbc0a4bda40899f7ecce9c032310e4701c5"
+    },
+    {
+      "path": "paperclaw/package.json",
+      "size_bytes": 1187,
+      "encoding": "utf-8",
+      "git_blob_sha1": "3934e7be28f938d74f49e38b290af77fbd7c52f2",
+      "sha256": "c443e87931f67495e4364f0a9b46fa7716d086e2141d269f9dc28f64cff7ed8d"
+    },
+    {
+      "path": "paperclaw/README.md",
+      "size_bytes": 2961,
+      "encoding": "utf-8",
+      "git_blob_sha1": "7aae5b69de5766ea2ea9f9789d18cae4c7db8e85",
+      "sha256": "a9d25675ee9fd0a421579dcc0e11663ac7524a9567df570a37b31d0f0722420b"
+    },
+    {
+      "path": "paperclaw/vscode-extension/.vscodeignore",
+      "size_bytes": 104,
+      "encoding": "utf-8",
+      "git_blob_sha1": "706d287f22c3fd2e1ec6f8ea5a3db161aef348f9",
+      "sha256": "d7aefafd94846ede969a310b5230a4f53f3e90feaa307cdd0b9c82ce04cbc3c7"
+    },
+    {
+      "path": "paperclaw/vscode-extension/CHANGELOG.md",
+      "size_bytes": 607,
+      "encoding": "utf-8",
+      "git_blob_sha1": "ceb0dd82277032823b17b792eef9786a52a2c8a1",
+      "sha256": "60dad3033fbeb5a84067539f8e3ae0478dbaa054c1ee59546997531c799ebd1e"
+    },
+    {
+      "path": "paperclaw/vscode-extension/LICENSE",
+      "size_bytes": 1085,
+      "encoding": "utf-8",
+      "git_blob_sha1": "6b6ab2d06c257064813b7b72f11780ffebee1046",
+      "sha256": "afa3de7e3edd0ad130afc2f31d1f8dbc0a4bda40899f7ecce9c032310e4701c5"
+    },
+    {
+      "path": "paperclaw/vscode-extension/media/icon.png",
+      "size_bytes": 11623,
+      "encoding": "binary",
+      "git_blob_sha1": "c2c0a3a69f0c1b1fba33863526cc93f3c26cce43",
+      "sha256": "ccac060c13e406527b582c46bde571f0dc899ff546d896b6f7eacbb8bcd814ac"
+    },
+    {
+      "path": "paperclaw/vscode-extension/media/icon.svg",
+      "size_bytes": 5489,
+      "encoding": "utf-8",
+      "git_blob_sha1": "c6da376cc4a6932a5a2b415c38957d6efadd46f9",
+      "sha256": "04dd06d1aa463680dec6d840e4c5d4fd43a38fe514f014e5f4eaceb72d5a878b"
+    },
+    {
+      "path": "paperclaw/vscode-extension/package-lock.json",
+      "size_bytes": 144704,
+      "encoding": "utf-8",
+      "git_blob_sha1": "b4dbd23e618a85a6dbb982fe448da33ae5ff1171",
+      "sha256": "089f830346c0e956698011bce09ccb1a4968fa6033290c93ad41f88ca976b20f"
+    },
+    {
+      "path": "paperclaw/vscode-extension/package.json",
+      "size_bytes": 3227,
+      "encoding": "utf-8",
+      "git_blob_sha1": "0d1cd82d092f1a67bcdf02bc06a08ff4641671f4",
+      "sha256": "8977b43197dbd0c7cc47103c04df004f9c7bff90a510af658d41f46fa406754e"
+    },
+    {
+      "path": "paperclaw/vscode-extension/README.md",
+      "size_bytes": 2598,
+      "encoding": "utf-8",
+      "git_blob_sha1": "e655a4c6cf023f9297b48bdb8c12f529398f5cdc",
+      "sha256": "888f20cbd037ae792da03cf1355b7101fb3c99a82b61ef1a045a5797519f3d7f"
+    },
+    {
+      "path": "paperclaw/vscode-extension/src/extension.ts",
+      "size_bytes": 11349,
+      "encoding": "utf-8",
+      "git_blob_sha1": "b1804331fc5f187814e7ec2fd1e8e981a4b5ca97",
+      "sha256": "b577088e3c868acb0f739046310a8db99f8260c729310adf307b930a6cab7111"
+    },
+    {
+      "path": "paperclaw/vscode-extension/tsconfig.json",
+      "size_bytes": 441,
+      "encoding": "utf-8",
+      "git_blob_sha1": "8d416f7c33ca4049008c71e1dfaa1b306c9399be",
+      "sha256": "d49412085fc22738ef156e3c17aae7d44e814bddb01d737d0eb674c354317f28"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "size_bytes": 94,
+      "encoding": "utf-8",
+      "git_blob_sha1": "61e36849cf7cfa9f1f71b4a3964a4953e3e243d3",
+      "sha256": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde"
+    },
+    {
+      "path": "PROTOCOL.md",
+      "size_bytes": 7545,
+      "encoding": "utf-8",
+      "git_blob_sha1": "73cec8a49b70b12215d3c6d20d398c30762f0d06",
+      "sha256": "26b752208b8ceb5feee421c7a0a0ab218b91871434e974bbdc5a2bff172f1b27"
+    },
+    {
+      "path": "public/apple-touch-icon.png",
+      "size_bytes": 96067,
+      "encoding": "binary",
+      "git_blob_sha1": "9ba3a82715ce25ce2b07866bca64bbdb7d306a96",
+      "sha256": "f561378d59d5659d186024e0284e9fe20222f8c9fb1d5fb2ce2fa2cf81703dd5"
+    },
+    {
+      "path": "public/claw-watermark.svg",
+      "size_bytes": 1432,
+      "encoding": "utf-8",
+      "git_blob_sha1": "146abaa7df1e9820fe08ef9130f02e61222ccc19",
+      "sha256": "09dc27946d98b7049791bfc78503b8bb69aaef25a8a45b755115aa05cc3259e3"
+    },
+    {
+      "path": "public/crab.png",
+      "size_bytes": 725366,
+      "encoding": "binary",
+      "git_blob_sha1": "36daada941217a8c3cded5d6ecd6bb60f51b30d1",
+      "sha256": "54d93fd32400f1a73a142cb791c15d7dc17f3372005bf1e7f7f5689018d3a450"
+    },
+    {
+      "path": "public/favicon.ico",
+      "size_bytes": 15086,
+      "encoding": "binary",
+      "git_blob_sha1": "82c979b2dd4358553f7531466b5ab2c122d32d3c",
+      "sha256": "6f9f9c13a360b3c7120f36c05a1db29ef7e2d368222db7ac878a1272f4c8d6da"
+    },
+    {
+      "path": "public/file.svg",
+      "size_bytes": 391,
+      "encoding": "utf-8",
+      "git_blob_sha1": "004145cddf3f9db91b57b9cb596683c8eb420862",
+      "sha256": "2b67812c325c199a02536cdbeea0c593a72f707d323b72ee3e08dbab06753bd4"
+    },
+    {
+      "path": "public/globe.svg",
+      "size_bytes": 1035,
+      "encoding": "utf-8",
+      "git_blob_sha1": "567f17b0d7c7fb662c16d4357dd74830caf2dccb",
+      "sha256": "b614b9bf183925957661ac851498fe1d8029fd43a62fbfed86f9e2624a57e7cf"
+    },
+    {
+      "path": "public/icon-16.png",
+      "size_bytes": 1007,
+      "encoding": "binary",
+      "git_blob_sha1": "61e155c33fa6a7a9cfdbf12e9f6d2d935777a747",
+      "sha256": "458d88e28b7414bef74d9edbd0b34da5d087ec6405c48e647e6cac9fa19cb143"
+    },
+    {
+      "path": "public/icon-192.png",
+      "size_bytes": 108926,
+      "encoding": "binary",
+      "git_blob_sha1": "c75f78a874e97b2808053689a664f9f60c3c613d",
+      "sha256": "ccad9c9192d522b3d93cf63f66f897c1e9705edb21d2c15947a0b357000c7777"
+    },
+    {
+      "path": "public/icon-256.png",
+      "size_bytes": 190837,
+      "encoding": "binary",
+      "git_blob_sha1": "f3f29f547d5984899cbc48d01b4453afaa54a226",
+      "sha256": "a3240f40765e7e5848c31f71b6fefcf4727f41763e27d391b53fe5d2c2a91af0"
+    },
+    {
+      "path": "public/icon-32.png",
+      "size_bytes": 3492,
+      "encoding": "binary",
+      "git_blob_sha1": "abea5d12ccc4ba903b043290b8f36b347208d097",
+      "sha256": "3ee259576e39f9c6dfb67faa8330a94b73d19cb65eb80188590196586f632402"
+    },
+    {
+      "path": "public/icon-48.png",
+      "size_bytes": 7529,
+      "encoding": "binary",
+      "git_blob_sha1": "4ab4e5f3e637ced92bc04ea2b3ee05be252bcf40",
+      "sha256": "8fe2e6c27d448830b69714d1f8695bb83ae9dc7da37f1d5fa0c2ed82c338e75a"
+    },
+    {
+      "path": "public/icon-512.png",
+      "size_bytes": 725366,
+      "encoding": "binary",
+      "git_blob_sha1": "36daada941217a8c3cded5d6ecd6bb60f51b30d1",
+      "sha256": "54d93fd32400f1a73a142cb791c15d7dc17f3372005bf1e7f7f5689018d3a450"
+    },
+    {
+      "path": "public/icon-64.png",
+      "size_bytes": 13028,
+      "encoding": "binary",
+      "git_blob_sha1": "a7a93169cbd1854f5b7706edd126876ed689dbfa",
+      "sha256": "b821aba32557b0b6489f25a25fbdac3ea79d88ef14690c8fee9f6bb4133adf8d"
+    },
+    {
+      "path": "public/llms.txt",
+      "size_bytes": 4545,
+      "encoding": "utf-8",
+      "git_blob_sha1": "54aec420c273d610293eb13cad51b131e1065bbb",
+      "sha256": "a3088585729a66d00ffd25d589d23ae4d9ea249e81a5db39f4f401d29ebee50f"
+    },
+    {
+      "path": "public/manifest.json",
+      "size_bytes": 931,
+      "encoding": "utf-8",
+      "git_blob_sha1": "af8276f490dd0ddac7e0e8df1249641887123b84",
+      "sha256": "2287c95c8d27e1b0a68441c83d822e8f5a3be3a098ab93f24d4e4d0e4d227273"
+    },
+    {
+      "path": "public/next.svg",
+      "size_bytes": 1375,
+      "encoding": "utf-8",
+      "git_blob_sha1": "5174b28c565c285e3e312ec5178be64fbeca8398",
+      "sha256": "55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc"
+    },
+    {
+      "path": "public/og-image.png",
+      "size_bytes": 1130337,
+      "encoding": "binary",
+      "git_blob_sha1": "f93349bbb9560593fe9a6560ae7f9267dae40eb9",
+      "sha256": "212882e6f1bc0ce86619b0121b8a8432740adba512e89c6a61bef3d790205e0b"
+    },
+    {
+      "path": "public/silicon/comms/index.html",
+      "size_bytes": 564,
+      "encoding": "utf-8",
+      "git_blob_sha1": "331fe4649132a1486166f9da7b0ef86be5da9514",
+      "sha256": "1886a5f3cffadab26dd461973fb92e4176233b07e3e0000c1c493732acd12dde"
+    },
+    {
+      "path": "public/silicon/hub/index.html",
+      "size_bytes": 558,
+      "encoding": "utf-8",
+      "git_blob_sha1": "1a0cde602a7b0651ed62a7b751c2530204d1262b",
+      "sha256": "4267eae9af6ddb6f5fbe88754cb6d7b5b2d91e79a2af4fb14b029be129b1ae93"
+    },
+    {
+      "path": "public/silicon/index.html",
+      "size_bytes": 562,
+      "encoding": "utf-8",
+      "git_blob_sha1": "dd18ccad51c56b6adfe678c5e1572f315f261489",
+      "sha256": "e411c079a6e09ace2b3b4a485a3d898e0295a2298be8f6e2075e8b93c5261e51"
+    },
+    {
+      "path": "public/silicon/map/index.html",
+      "size_bytes": 558,
+      "encoding": "utf-8",
+      "git_blob_sha1": "ebd28142dd336a9ad5fb061ea47639c3a01f8cad",
+      "sha256": "2d4b2bce45fecb9f3784c1f388dc8bbd9047c146d9eaccf0edcf051444c60b15"
+    },
+    {
+      "path": "public/silicon/publish/index.html",
+      "size_bytes": 570,
+      "encoding": "utf-8",
+      "git_blob_sha1": "e0c317d0763b902c3ceb233ed35f9d5f66c87d67",
+      "sha256": "7121c6e069b7a222901d20562e02d302c34e6e913aabc55cf3fec90f465282de"
+    },
+    {
+      "path": "public/silicon/register/index.html",
+      "size_bytes": 573,
+      "encoding": "utf-8",
+      "git_blob_sha1": "30e97036f6728eb023d5fa56247d132ed606bcfa",
+      "sha256": "4a949ceadc215e8b3587d6a298b53caaa8b0229420599ec9efb7352487ab8bc2"
+    },
+    {
+      "path": "public/silicon/silicon.js",
+      "size_bytes": 9552,
+      "encoding": "utf-8",
+      "git_blob_sha1": "da61abe69a3eb3350f3f00cf7551999208e6c2b5",
+      "sha256": "8d2a2af6f2dc2676c78c0a209dbf05381058f38294fdfb2486b599762a8e4046"
+    },
+    {
+      "path": "public/silicon/validate/index.html",
+      "size_bytes": 573,
+      "encoding": "utf-8",
+      "git_blob_sha1": "ce01f107735250a8a1679a73d58b10f7096a947f",
+      "sha256": "e4ed85c594d8ab403df2393535ad625b2bba4179957cb896b4155474063dd688"
+    },
+    {
+      "path": "public/sw.js",
+      "size_bytes": 6255,
+      "encoding": "utf-8",
+      "git_blob_sha1": "475812be625ea434555e87042abb1fe4b52d89d7",
+      "sha256": "95e16fd28bc4d03fdd79ddf0a34171b1bdb7f8bab3cb25dfdf3cf6814499a876"
+    },
+    {
+      "path": "public/teerth.jpg",
+      "size_bytes": 1505508,
+      "encoding": "binary",
+      "git_blob_sha1": "f6c5f6b7b557021b03950f1a8d6e9ce1c759621e",
+      "sha256": "f9a93559a28edeababb59a3476ee9c4ecbad7767a76c839ec4efa583474bb572"
+    },
+    {
+      "path": "public/vercel.svg",
+      "size_bytes": 128,
+      "encoding": "utf-8",
+      "git_blob_sha1": "77053960334e2e34dc584dea8019925c3b4ccca9",
+      "sha256": "f081337b2fee635b455b63275406a3e7f39d6a014e25ad90dab5a67e62a12ac4"
+    },
+    {
+      "path": "public/window.svg",
+      "size_bytes": 385,
+      "encoding": "utf-8",
+      "git_blob_sha1": "b2b2a44f6ebc70c450043c05a002e7a93ba5d651",
+      "sha256": "644768c4aaeb4767bce293344eeb0c125fb804a94d801440424072202d85e3a1"
+    },
+    {
+      "path": "public/workers/validator.worker.js",
+      "size_bytes": 7240,
+      "encoding": "utf-8",
+      "git_blob_sha1": "95f3ad3bd65aa4b0ac7fd5f9317ea195deded560",
+      "sha256": "760a6be03a83ee8d60cc8f1fb3d72a048f97b97113d6da5832597793a49cdafe"
+    },
+    {
+      "path": "public/workflow-engine.html",
+      "size_bytes": 157374,
+      "encoding": "utf-8",
+      "git_blob_sha1": "448fb7cb990775249528ad56a9cc5434ada76312",
+      "sha256": "4ed314a112c1aae348547f4473e4c458160cbd40dbdb4ee77a74c3497db1324c"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 14984,
+      "encoding": "utf-8",
+      "git_blob_sha1": "f584290a31ecc27e0b537775c97bd9a90a475f2a",
+      "sha256": "2aaf5a31bbe1cc0c7b0997425a5046c2a293405a509f73c2b77fe5239a059728"
+    },
+    {
+      "path": "README.zh.md",
+      "size_bytes": 2544,
+      "encoding": "utf-8",
+      "git_blob_sha1": "8cb55d8ace77fdc72af4199fffe7b48bb28e0320",
+      "sha256": "9c88edb3ff575f01da0f62857075cb62583c0bdd4e376823829b15d0a9983bf9"
+    },
+    {
+      "path": "skills/autonomous-engine/guardian-node.js",
+      "size_bytes": 14703,
+      "encoding": "utf-8",
+      "git_blob_sha1": "3aa694b8e762d089e5438e4fd9cf4d20cee9862e",
+      "sha256": "f870bba0445c67671ed9056b8317d84c56c6994af0d7cb671176f6eea8d25198"
+    },
+    {
+      "path": "skills/citizens-factory/intellectual-citizen.js",
+      "size_bytes": 5807,
+      "encoding": "utf-8",
+      "git_blob_sha1": "d0e26175c7bff0bc498758f450863e9f621cee32",
+      "sha256": "3af35eb4bf6a43b255f7e2b8b56f0dd162da54bb1837798ab1c12e9d1b3eb5ec"
+    },
+    {
+      "path": "skills/citizens-factory/watchman-node.js",
+      "size_bytes": 4431,
+      "encoding": "utf-8",
+      "git_blob_sha1": "9433cfb1d959c4344fdb1cd74b6d3a2efc398363",
+      "sha256": "d78cfe066ce68aa53d9970a68519c5a11ae8903e84d7e99e860ccc2a1654fb6b"
+    },
+    {
+      "path": "src/app/api/[[...proxy]]/route.ts",
+      "size_bytes": 833,
+      "encoding": "utf-8",
+      "git_blob_sha1": "8000df19e7936159fa0e530227e6342201ca5ed6",
+      "sha256": "7718813a1880d5598eb21ccd83878111778f6d2efa09b3d6fabd4228dd72f2ec"
+    },
+    {
+      "path": "src/app/api/format-paper/route.ts",
+      "size_bytes": 1198,
+      "encoding": "utf-8",
+      "git_blob_sha1": "083a82abbd10622684f70cdb1c374a427660bbe2",
+      "sha256": "854e3636fc7a487f28b194be8c168cb5f3fd14910ef3fbcb11ab1dc8ea072f4d"
+    },
+    {
+      "path": "src/app/api/verify-lean/route.ts",
+      "size_bytes": 1339,
+      "encoding": "utf-8",
+      "git_blob_sha1": "7b1746fd4402b077a0145b161833e45d80fe600d",
+      "sha256": "e1566127322752652fbf88736b1f4472decc2845455483a233752110ab615f22"
+    },
+    {
+      "path": "src/app/app/agents/page.tsx",
+      "size_bytes": 3396,
+      "encoding": "utf-8",
+      "git_blob_sha1": "c267b82ee0c5cc3ce0195c93e8cd052d9a6c8e2f",
+      "sha256": "ae4246711f57d0745f074c47e2e4712d974ef5ecaee251f5a82cdfbe76a90a3a"
+    },
+    {
+      "path": "src/app/app/benchmark/page.tsx",
+      "size_bytes": 23811,
+      "encoding": "utf-8",
+      "git_blob_sha1": "f4240a6ba14952a526f9e317338546e6965d30ca",
+      "sha256": "a36794eb2a9f57921ffa376fc1638f8852717316a4a25d7e7f1d03170265d1d1"
+    },
+    {
+      "path": "src/app/app/connect/page.tsx",
+      "size_bytes": 16368,
+      "encoding": "utf-8",
+      "git_blob_sha1": "49e2982e970ecf7a9114067bd2c382b67afd76f1",
+      "sha256": "78df9d2c0f1e6231c1eb60f869d5f5dc980aa22962db1edb2c17e64ac953ad74"
+    },
+    {
+      "path": "src/app/app/dashboard/page.tsx",
+      "size_bytes": 1726,
+      "encoding": "utf-8",
+      "git_blob_sha1": "f923d59bb46a10bd6a37561ad7620f325bec30f5",
+      "sha256": "c74ce87415225608ff990da4038d3fb3941259667d087009680963387096cafd"
+    },
+    {
+      "path": "src/app/app/dataset/page.tsx",
+      "size_bytes": 20257,
+      "encoding": "utf-8",
+      "git_blob_sha1": "eceb0b701bc09860d23d2ab709735941eba8c830",
+      "sha256": "9cd493ef69fcae05edaa8e0efe778dd89c76b54629ad5cb8f1bb584f92efc265"
+    },
+    {
+      "path": "src/app/app/governance/page.tsx",
+      "size_bytes": 23211,
+      "encoding": "utf-8",
+      "git_blob_sha1": "663820d3d9a5cebb3b7b3351ca74cb5aad6ee8eb",
+      "sha256": "fecaa40963e726254362f8518e7998666fcfe4596d53f367e8b8b3ae4b0b8d9f"
+    },
+    {
+      "path": "src/app/app/knowledge/page.tsx",
+      "size_bytes": 4466,
+      "encoding": "utf-8",
+      "git_blob_sha1": "b4eabeb8113bc27208526351e1d41052a812889b",
+      "sha256": "34b16e4363cf6b8cee1516ffe49b5a0ccbc3d78bb716f4f859a5624073d0483c"
+    },
+    {
+      "path": "src/app/app/layout.tsx",
+      "size_bytes": 217,
+      "encoding": "utf-8",
+      "git_blob_sha1": "fed4595bb5ca9b0907c717ebc1d37bf9d24225e1",
+      "sha256": "cfd16a8b6db59286904b6250c5a7a03cfc89ec04cf01a142a6fa603aa89c3ec2"
+    },
+    {
+      "path": "src/app/app/leaderboard/page.tsx",
+      "size_bytes": 8644,
+      "encoding": "utf-8",
+      "git_blob_sha1": "0f07dfb3cd019bef76bab63a3f359601fdf0ed23",
+      "sha256": "d2461175350847d5b540539218eb4a49267408014fd7a89188b7710a73667eb3"
+    },
+    {
+      "path": "src/app/app/mempool/page.tsx",
+      "size_bytes": 5813,
+      "encoding": "utf-8",
+      "git_blob_sha1": "5688367c3c88be523a3690b49ff96e4f813ea14e",
+      "sha256": "a5139996e260ab1ccaf0e78a6ec70609e9a3077e42320ff0a7a31fcaf895b82b"
+    },
+    {
+      "path": "src/app/app/network/page.tsx",
+      "size_bytes": 730,
+      "encoding": "utf-8",
+      "git_blob_sha1": "69d2fde7c6451b6fb76059f7a4dc1bb5c4d58855",
+      "sha256": "c924ab08d1f3d7e1eec5e04eb5e0c09f7a78af2ca0f7a4aa60e87fd0778ba7f7"
+    },
+    {
+      "path": "src/app/app/page.tsx",
+      "size_bytes": 113,
+      "encoding": "utf-8",
+      "git_blob_sha1": "45278047235992b6b7bbd7fef8073614c36cef32",
+      "sha256": "cc2e7c224c1440790e55b2ea648736baf6031c7ffe7079965bd7cea64bebe0a9"
+    },
+    {
+      "path": "src/app/app/papers/[id]/page.tsx",
+      "size_bytes": 13150,
+      "encoding": "utf-8",
+      "git_blob_sha1": "10a77242348ac55ba3aeda4ba433fb46a4b4facc",
+      "sha256": "f2252800a15cb5615efac5868c379f06f1eb73efbeeeaa1e69cdc6c1ce16c156"
+    },
+    {
+      "path": "src/app/app/papers/page.tsx",
+      "size_bytes": 554,
+      "encoding": "utf-8",
+      "git_blob_sha1": "6cc43583ae05bda4df4b5c775fa67e073070cab7",
+      "sha256": "1a5300a7463e6fe127352e20557326ab2c0f440d3aaa500fa31e7053132ff1a1"
+    },
+    {
+      "path": "src/app/app/profile/page.tsx",
+      "size_bytes": 7832,
+      "encoding": "utf-8",
+      "git_blob_sha1": "640a84ff9c428cf4eea88a0f8f1e93642ff490e0",
+      "sha256": "31a5ee4cdd6282e07fa9ee69e89b36399d5fa2a9380322f0effab2c25baf4b55"
+    },
+    {
+      "path": "src/app/app/simulations/page.tsx",
+      "size_bytes": 13597,
+      "encoding": "utf-8",
+      "git_blob_sha1": "896ec6cc75588934463304046d9fa217af864297",
+      "sha256": "7ac55ccddf1ddd11db674ae7c1bce118d903ae144d9e4c9e9742ff7acafd8deb"
+    },
+    {
+      "path": "src/app/app/swarm/page.tsx",
+      "size_bytes": 3355,
+      "encoding": "utf-8",
+      "git_blob_sha1": "7e8b3219a97addb0a5c688741884bdfc05bb353a",
+      "sha256": "760a4110489d863831f2cc2189b9b3f2a3f65b330de41f88da90e247864ac961"
+    },
+    {
+      "path": "src/app/app/verify/page.tsx",
+      "size_bytes": 9172,
+      "encoding": "utf-8",
+      "git_blob_sha1": "ecc2f12f23c8919d8e65fe8fee950f45dfb9c0d9",
+      "sha256": "eef49b4147238e48747bc37007c44a5502a8c2ff9e49311a09e75be82a4ca5df"
+    },
+    {
+      "path": "src/app/app/workflow/page.tsx",
+      "size_bytes": 883,
+      "encoding": "utf-8",
+      "git_blob_sha1": "bfede313519c5c7629ef0c264fc6898b137f91dd",
+      "sha256": "f6f42f8341bfd43ef4acd66d93dab15efcfb61d0f659b030de3958b28fa83ad5"
+    },
+    {
+      "path": "src/app/app/write/page.tsx",
+      "size_bytes": 22364,
+      "encoding": "utf-8",
+      "git_blob_sha1": "ed65346c92f7af5337823cea81e8be02dd5d5a95",
+      "sha256": "b65c6040a95b0486e9fdea33e78fbf30e7fb2dd6b30e81d6013c39cc6304874d"
+    },
+    {
+      "path": "src/app/favicon.ico",
+      "size_bytes": 15086,
+      "encoding": "binary",
+      "git_blob_sha1": "82c979b2dd4358553f7531466b5ab2c122d32d3c",
+      "sha256": "6f9f9c13a360b3c7120f36c05a1db29ef7e2d368222db7ac878a1272f4c8d6da"
+    },
+    {
+      "path": "src/app/globals.css",
+      "size_bytes": 9651,
+      "encoding": "utf-8",
+      "git_blob_sha1": "d11dea86c0f9984a6a64d8680473f1cf40930bd2",
+      "sha256": "42e5123ced506d603695fed8a78cfac0acb3fa571a3848e6bdc4f64a845320d8"
+    },
+    {
+      "path": "src/app/lab/page.tsx",
+      "size_bytes": 190277,
+      "encoding": "utf-8",
+      "git_blob_sha1": "c28e65aaa0a6e125fb300edecb230eaf7d601792",
+      "sha256": "51a587c82d6c183d323ef4819070eb81d15f2ba9e032432a71f8f08d688b36cb"
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "size_bytes": 3030,
+      "encoding": "utf-8",
+      "git_blob_sha1": "18ae3def5747b20cd0d2231298cd04b9e3ba7eae",
+      "sha256": "d83df03097fe4a4d016c712dd43a9d60355a1d9110a057a1cd13401aed14efc4"
+    },
+    {
+      "path": "src/app/metrics/page.tsx",
+      "size_bytes": 12300,
+      "encoding": "utf-8",
+      "git_blob_sha1": "5df8bf34b1087810914aa68e5736ea68f5fe5916",
+      "sha256": "161020aa047bf3d4cc2cfc9b1f32e2e3ccc512bfe30e3728993caffcb18a7a28"
+    },
+    {
+      "path": "src/app/not-found.tsx",
+      "size_bytes": 1009,
+      "encoding": "utf-8",
+      "git_blob_sha1": "e023fc3caee6ed4751afe5d1785add74214f1f20",
+      "sha256": "b0fa70acc4dbca32844a1366e775dbebcc7f854c57cc2a3e320e9204758e42b7"
+    },
+    {
+      "path": "src/app/page.tsx",
+      "size_bytes": 199,
+      "encoding": "utf-8",
+      "git_blob_sha1": "2c419c032ccb67d2be810b39c51910b07b66fad4",
+      "sha256": "fcc338267e600e61b34ac4032bda58a5e7d0379fb67f4acb109bc800ec33c208"
+    },
+    {
+      "path": "src/app/silicon/[[...path]]/route.ts",
+      "size_bytes": 6072,
+      "encoding": "utf-8",
+      "git_blob_sha1": "af241d945bddcda2e380313e9acd5ac4ea8e4424",
+      "sha256": "d64dc1c3dcb89828538935fc5ac8ed1fbf5b43fed7fd56e0ef1d905f305ad048"
+    },
+    {
+      "path": "src/components/agents/AgentRow.tsx",
+      "size_bytes": 3177,
+      "encoding": "utf-8",
+      "git_blob_sha1": "173c5e86d376c545dfd415972a45e8734d594ce0",
+      "sha256": "60bcb8c2b010a9b509069823de5b410381c41044288822ca42f811608d1bdeb9"
+    },
+    {
+      "path": "src/components/agents/AgentTypeBadge.tsx",
+      "size_bytes": 779,
+      "encoding": "utf-8",
+      "git_blob_sha1": "ef626db8c549f203211302824777033b9f446449",
+      "sha256": "07691f415c718fa32fbbcc625a61e190183170a8e917274e1c6b066a33346fc3"
+    },
+    {
+      "path": "src/components/agents/RankBadge.tsx",
+      "size_bytes": 1086,
+      "encoding": "utf-8",
+      "git_blob_sha1": "72696d542f69efd89012d222b89a545537213ba9",
+      "sha256": "bab03fd986517b3de34c5c6fe97f8623a6e730b41977121a808304813106b5db"
+    },
+    {
+      "path": "src/components/agents/RelayMonitor.tsx",
+      "size_bytes": 2014,
+      "encoding": "utf-8",
+      "git_blob_sha1": "85bf7d2bfc4f47aa977a0b4036d9a69eaf1470e5",
+      "sha256": "9dde386c724f7b4b3b3ea2d64a590cabaaa6cbd1b6b569ec26edc904c39aa4ec"
+    },
+    {
+      "path": "src/components/BrowserNodeCounter.tsx",
+      "size_bytes": 1688,
+      "encoding": "utf-8",
+      "git_blob_sha1": "edcc8d8feb4da2e18168f24f5faf4317d99a99fe",
+      "sha256": "8f0fa372187497b98a6d8edeb3bef0bb0635d1900bee7687139e964730e2d7de"
+    },
+    {
+      "path": "src/components/chat/ChatInput.tsx",
+      "size_bytes": 1423,
+      "encoding": "utf-8",
+      "git_blob_sha1": "0dc3859dc95a83582471457994273b5eeb249916",
+      "sha256": "7d5cb77b198f7c75a6153b42e9b26706024cd5aeb05b1e46a318a6d647f29591"
+    },
+    {
+      "path": "src/components/chat/ChatMessage.tsx",
+      "size_bytes": 2215,
+      "encoding": "utf-8",
+      "git_blob_sha1": "b2549ca86b21e105e727f5a8ff0c8a5c3823b1ac",
+      "sha256": "c9fcda8d4586f083e2d46f7c61267ab757a19c2241637458f66d3cfb6da77af4"
+    },
+    {
+      "path": "src/components/chat/ChatWindow.tsx",
+      "size_bytes": 2405,
+      "encoding": "utf-8",
+      "git_blob_sha1": "39a56cb014762ff9356d3c55bed7303431e9e582",
+      "sha256": "8bdbd745c5bc21c719cab90454497794362e5e4a16d9efbba7519ed28803f3ce"
+    },
+    {
+      "path": "src/components/dashboard/HeroStats.tsx",
+      "size_bytes": 2859,
+      "encoding": "utf-8",
+      "git_blob_sha1": "e33697e29c95f8e7c5ab79ef8f13c591612048cf",
+      "sha256": "23bcb0a2ccbedf739b18e04b760cb72942963a81da88cf93e07b37a83837a841"
+    },
+    {
+      "path": "src/components/dashboard/InvestigationCard.tsx",
+      "size_bytes": 2656,
+      "encoding": "utf-8",
+      "git_blob_sha1": "ae3bc1b73685afd6985cc47c3f3320e5b77113bc",
+      "sha256": "3da0fa4981ee0e5afa6ec90478358e970375db2467cd110f3440c7fd5aad7130"
+    },
+    {
+      "path": "src/components/dashboard/InvestigationGrid.tsx",
+      "size_bytes": 2007,
+      "encoding": "utf-8",
+      "git_blob_sha1": "bbcd2aa9086757967020e56d7b2bf5c687bc4a4b",
+      "sha256": "e2b07959e9b6b207ec5c776e93bdae99277c43c37667d674448395f15084b1fd"
+    },
+    {
+      "path": "src/components/dashboard/SyncBanner.tsx",
+      "size_bytes": 1796,
+      "encoding": "utf-8",
+      "git_blob_sha1": "c427b61c5daccb948bcbe750c67c8e3d533fa711",
+      "sha256": "6a90186d0f07fde5b481961ce5ad83402263c7feb823a39e792be83975c2e0ed"
+    },
+    {
+      "path": "src/components/dashboard/VotePanel.tsx",
+      "size_bytes": 7345,
+      "encoding": "utf-8",
+      "git_blob_sha1": "10ab19bcb552c61dbbf36f39d6c0fa3db9c1c6e2",
+      "sha256": "62c21ba3537664214a977b7b2c508173f1419f68d3eba0508c5cc1efa78131f1"
+    },
+    {
+      "path": "src/components/editor/CollaborativeEditor.tsx",
+      "size_bytes": 7023,
+      "encoding": "utf-8",
+      "git_blob_sha1": "e80f45402ddf97601e6f81190415079ae385dcc9",
+      "sha256": "e1af9b8ac30e9de735875aca576cb2a8bbcc869eb51955620f7b4a0debda999e"
+    },
+    {
+      "path": "src/components/editor/EditorToolbar.tsx",
+      "size_bytes": 2568,
+      "encoding": "utf-8",
+      "git_blob_sha1": "6a1e257cf7db72f89a4b8f5b3ee8ba9a0c6dabee",
+      "sha256": "90693cecb435470827946101f497d49f301c5557af3d13e91fede80110294f05"
+    },
+    {
+      "path": "src/components/landing/LandingHero.tsx",
+      "size_bytes": 32563,
+      "encoding": "utf-8",
+      "git_blob_sha1": "ab888d7ff760f2520588a1e5ad3f345826fdebdf",
+      "sha256": "5afe48de5d38357cd536e61e8df6bfbef897fdc91c78495502f147a9ffb564c7"
+    },
+    {
+      "path": "src/components/landing/StatusBlip.tsx",
+      "size_bytes": 979,
+      "encoding": "utf-8",
+      "git_blob_sha1": "e69d5d543f232e780cf0ed0b6b2dffb4414674f6",
+      "sha256": "451095ccba1f3f2130f67030b899efbd78b8bf579c98da02ea945eed827249a6"
+    },
+    {
+      "path": "src/components/layout/AppShell.tsx",
+      "size_bytes": 853,
+      "encoding": "utf-8",
+      "git_blob_sha1": "65377ab35a7d49dee87f1a9ca9f0345a1a5a9382",
+      "sha256": "ac9ae489b0816aee54fecd50561e9defa595e3db0e064d4c56294de86a83cd5a"
+    },
+    {
+      "path": "src/components/layout/Header.tsx",
+      "size_bytes": 3771,
+      "encoding": "utf-8",
+      "git_blob_sha1": "fac17dab70d123ae4cd70f46e4696315388efb37",
+      "sha256": "63c90e2c9ce707b1f3a4f7a6605a3a507bc139c275fdadd3fb57f67bad1cc820"
+    },
+    {
+      "path": "src/components/layout/LogDock.tsx",
+      "size_bytes": 3992,
+      "encoding": "utf-8",
+      "git_blob_sha1": "23be333f8ff6478537637c6b6f0bce24a17c2141",
+      "sha256": "0f2ef1231e31069d4fd6a1cd17f49e33b92e04f22981eeb73547f0c39fbe29c2"
+    },
+    {
+      "path": "src/components/layout/Sidebar.tsx",
+      "size_bytes": 6378,
+      "encoding": "utf-8",
+      "git_blob_sha1": "6b0a26d9aeb011ab801466835e6683d8ff4045e8",
+      "sha256": "f11ff443b3d632dbf416d0a924533dad52b3531313b2a4a67273b39f779f32d7"
+    },
+    {
+      "path": "src/components/network/NetworkGraph.tsx",
+      "size_bytes": 1468,
+      "encoding": "utf-8",
+      "git_blob_sha1": "efc4e97326506f0f66c33f753988feba6c4ed55f",
+      "sha256": "8aec90a6fe70b2eb30bc68aab9d917762c282199275f56d3d1e7c6e0197c93e4"
+    },
+    {
+      "path": "src/components/network/NetworkHUD.tsx",
+      "size_bytes": 3037,
+      "encoding": "utf-8",
+      "git_blob_sha1": "19d95b3465026a730c594e59aa66edcaeab81e83",
+      "sha256": "1108b0989dc064dac123e977a5ffa3c10c9eaba705fc45657ded158dcba13c37"
+    },
+    {
+      "path": "src/components/network/NetworkScene.tsx",
+      "size_bytes": 13696,
+      "encoding": "utf-8",
+      "git_blob_sha1": "e8bad0c9179d2026fa5e9dbbb3b958ed775bbaef",
+      "sha256": "8079218117373a898202cd33295ee731a9c1cd07a9b1220478439f00f8cc6529"
+    },
+    {
+      "path": "src/components/NodeStatusBadge.tsx",
+      "size_bytes": 2134,
+      "encoding": "utf-8",
+      "git_blob_sha1": "8ba4b030a1f47d870876e04d66be7d2ca0b4cc27",
+      "sha256": "61ff1ecb51f2802eb7915dbe4ae5d47f41e490605ef791437e9fe22c5155aa5f"
+    },
+    {
+      "path": "src/components/papers/MempoolCard.tsx",
+      "size_bytes": 5126,
+      "encoding": "utf-8",
+      "git_blob_sha1": "617751fc3858c825cc21ce53e264d02c732b9a20",
+      "sha256": "13a9b69e1706ad1ca818c5aca8c425651d016d3b12a13fce59f65b44374a7801"
+    },
+    {
+      "path": "src/components/papers/PaperBoard.tsx",
+      "size_bytes": 4549,
+      "encoding": "utf-8",
+      "git_blob_sha1": "db8277d261e99a8d263dc92c4acf87e0ae14b53c",
+      "sha256": "b0e1ffaa982cd753df57e492681947cb1634df54f8e9bdf1a288509c0ecc12b0"
+    },
+    {
+      "path": "src/components/papers/PaperCard.tsx",
+      "size_bytes": 3112,
+      "encoding": "utf-8",
+      "git_blob_sha1": "ab8c20b05d0621188f8c28d2d0febb6a75e5f8cf",
+      "sha256": "27ccc60c24515afcb42b9ff1b680ebaa725d387bacc20063f4a9f9e85c40f146"
+    },
+    {
+      "path": "src/components/papers/PaperPrintView.tsx",
+      "size_bytes": 29548,
+      "encoding": "utf-8",
+      "git_blob_sha1": "122bdbbaafa6c5a3163317858a1e72acab49e096",
+      "sha256": "e0aef4c563b8055bd6789284ff4c25ba6af94a6ce8d60ed7dc006f72a48097da"
+    },
+    {
+      "path": "src/components/papers/PublishModal.tsx",
+      "size_bytes": 10184,
+      "encoding": "utf-8",
+      "git_blob_sha1": "e4612dd454e8c6b01a15cfeeea02bb3d44e20579",
+      "sha256": "bde636fbbfc902e75e7eacf291e3c9b442c113b7bb801c74f8764757a4c84738"
+    },
+    {
+      "path": "src/components/papers/TierBadge.tsx",
+      "size_bytes": 2063,
+      "encoding": "utf-8",
+      "git_blob_sha1": "9c28c6a13fc37be6c5c35f0d6e00b5c4f0af84cd",
+      "sha256": "d8a6427e7de98898a4c3bef9bef1525eb435e3741741a99a6f5b330a595d829f"
+    },
+    {
+      "path": "src/components/ui/badge.tsx",
+      "size_bytes": 1776,
+      "encoding": "utf-8",
+      "git_blob_sha1": "beb56ed1cb1aa8ed90d5bbf3c33028ea3786061d",
+      "sha256": "6dbd83d8aa66b16389225ca9fbce387c03c5b8196a34e0f7bab97a2d18480f6c"
+    },
+    {
+      "path": "src/components/ui/button.tsx",
+      "size_bytes": 2392,
+      "encoding": "utf-8",
+      "git_blob_sha1": "b5ea4abd1e2028496b915b733ad5485951cbad6a",
+      "sha256": "cd98acc71988e234da58315ba3d98b9592dfc91e646cebaafc1d205609ce5eae"
+    },
+    {
+      "path": "src/components/ui/card.tsx",
+      "size_bytes": 1987,
+      "encoding": "utf-8",
+      "git_blob_sha1": "681ad980f27a34dd3d4ba08c7614ce1f7c006143",
+      "sha256": "2040cdff27cd1ed771e0ebbd15abcd73d31f2f1e4be6664bd6816fffd2a87476"
+    },
+    {
+      "path": "src/components/ui/dialog.tsx",
+      "size_bytes": 4303,
+      "encoding": "utf-8",
+      "git_blob_sha1": "80d7ad60483a9c56cfe75504a230b67ec4661c06",
+      "sha256": "0596a93da7e192fd71780e43d1b7d9dcb55e98590b9f1240c3b3a14a06e63b91"
+    },
+    {
+      "path": "src/components/ui/input.tsx",
+      "size_bytes": 962,
+      "encoding": "utf-8",
+      "git_blob_sha1": "89169058d054c972608ac3115cc655f267eedaa9",
+      "sha256": "56b7fd30208addbcc2468cfda4f5bc0a55342211deaab61ee35b1c352b1622f1"
+    },
+    {
+      "path": "src/components/ui/scroll-area.tsx",
+      "size_bytes": 1639,
+      "encoding": "utf-8",
+      "git_blob_sha1": "0f873dcb529c5f2c785dc472fb27c13057a18d9d",
+      "sha256": "b0ed96ab12c0dccc6d09760434d417b4ecf4ab670b09917655c4ead87ff66577"
+    },
+    {
+      "path": "src/components/ui/separator.tsx",
+      "size_bytes": 694,
+      "encoding": "utf-8",
+      "git_blob_sha1": "4c24b2a884d7526faa0e527ddf84fb5beb99289b",
+      "sha256": "bbd16f077778bb123cc86a16384751f53bfd22cee5cfdf6715862bdcd711cf12"
+    },
+    {
+      "path": "src/components/ui/skeleton.tsx",
+      "size_bytes": 276,
+      "encoding": "utf-8",
+      "git_blob_sha1": "32ea0ef7fb4d4f7cb0affa7a3b329533b5f2af23",
+      "sha256": "f2aea81d8baf2b621945382aabac150e3db40f20d19ac1abea7aff805f1dc33c"
+    },
+    {
+      "path": "src/components/ui/tabs.tsx",
+      "size_bytes": 3782,
+      "encoding": "utf-8",
+      "git_blob_sha1": "7f73dcda316d3e3b34ef0f9c6b77fa47f7be503e",
+      "sha256": "87d9e9fbc18d985156978d3e83bfc538c61e76362f4efd0e0956005c9f9bbede"
+    },
+    {
+      "path": "src/components/ui/textarea.tsx",
+      "size_bytes": 759,
+      "encoding": "utf-8",
+      "git_blob_sha1": "7f21b5e78a4c1c23bf41b6be206f3f81dc84fe99",
+      "sha256": "de4e9fb0fd8e8ed10ea2e475ffe202a922ffe77e3f3edb2c517b0781447ad1b4"
+    },
+    {
+      "path": "src/components/ui/tooltip.tsx",
+      "size_bytes": 1830,
+      "encoding": "utf-8",
+      "git_blob_sha1": "d80a14468c737298b56f404d5c1376f8a4dbe1e8",
+      "sha256": "4deaee9de7ae94a6511df1d5cc715cd037f3730c24265af0b0e01f58d9270d70"
+    },
+    {
+      "path": "src/hooks/useAgentIdentity.ts",
+      "size_bytes": 1287,
+      "encoding": "utf-8",
+      "git_blob_sha1": "5790a859812953249a179c35ed67525a6e5edd2d",
+      "sha256": "823d551188497ace003be1286f402b3223543c9aa3d0ecaea99cc5c2268ada97"
+    },
+    {
+      "path": "src/hooks/useAgents.ts",
+      "size_bytes": 5091,
+      "encoding": "utf-8",
+      "git_blob_sha1": "570b9879eb02eedae930c541c45232115d8c7c41",
+      "sha256": "d5aac2d54db05078fd24300a1160959e900025266bd1e77a792a379a6d146084"
+    },
+    {
+      "path": "src/hooks/useApiAgents.ts",
+      "size_bytes": 673,
+      "encoding": "utf-8",
+      "git_blob_sha1": "133af7b845af10fccd2ae4d422f7d8dbc84bec2c",
+      "sha256": "b8a65886319d8c9191569033aab26842e98487d0fad13ac7c60f51d84d9e7935"
+    },
+    {
+      "path": "src/hooks/useApiChat.ts",
+      "size_bytes": 3361,
+      "encoding": "utf-8",
+      "git_blob_sha1": "d135aed4ece5caf7c3639932b549d8dca75c36cb",
+      "sha256": "46d355d0176bfa6a02511b7ed78ad1ac02c32a644b9db10ce1b36883e3ef9d7d"
+    },
+    {
+      "path": "src/hooks/useGunChat.ts",
+      "size_bytes": 1821,
+      "encoding": "utf-8",
+      "git_blob_sha1": "89ca5471abf4d345b904dae541cbd9f4c52234ae",
+      "sha256": "9f45668aa7380ed2de7530994c44fe36e75ade848260b859637ec81769239b06"
+    },
+    {
+      "path": "src/hooks/useGunPapers.ts",
+      "size_bytes": 1295,
+      "encoding": "utf-8",
+      "git_blob_sha1": "371e411a09d0886766bb8874a782d7e861842dc5",
+      "sha256": "a2b6048a8c1bc5177627e51c95102d759255723ef31cea6d718e1376898ca4bc"
+    },
+    {
+      "path": "src/hooks/useLatestPapers.ts",
+      "size_bytes": 449,
+      "encoding": "utf-8",
+      "git_blob_sha1": "1ccd625edbd4d151a26ead9d5b34210bf0c789ee",
+      "sha256": "2c60dba3b5f5b21b7ae8d8be0576101b3c269a270b39e28b19697a00fdd50702"
+    },
+    {
+      "path": "src/hooks/useLeaderboard.ts",
+      "size_bytes": 2834,
+      "encoding": "utf-8",
+      "git_blob_sha1": "72da628c3adb66fb568629987abc951908cd981d",
+      "sha256": "178582ad0b9a2e7dd8eb99f7fd0584ff553e66b80595b90f8d8a20c328e42da7"
+    },
+    {
+      "path": "src/hooks/useMempool.ts",
+      "size_bytes": 418,
+      "encoding": "utf-8",
+      "git_blob_sha1": "2026a3f347a70d4dfae926ba5e4fb30b5a8b205a",
+      "sha256": "8b8c6b20c799b5003241b554e1f009579a61784c52591e3c8158de7664acebbd"
+    },
+    {
+      "path": "src/hooks/useNetworkStatus.ts",
+      "size_bytes": 2014,
+      "encoding": "utf-8",
+      "git_blob_sha1": "dc1ecb8c6d4a1615f42f2458d2621635abcc7d59",
+      "sha256": "c6bba6e7358b8e490aabac17fc473263f80dbbba5ae76390b9d4df4554f3102b"
+    },
+    {
+      "path": "src/hooks/usePresence.ts",
+      "size_bytes": 2476,
+      "encoding": "utf-8",
+      "git_blob_sha1": "3f5720d4d92eea40ce7a2c54ddae8c8d4216835b",
+      "sha256": "8adf36d5f7eb524b846eae10f05d0349c0e433ec751fa5f1f86ed87ef58eddf7"
+    },
+    {
+      "path": "src/hooks/useRelayStatus.ts",
+      "size_bytes": 2080,
+      "encoding": "utf-8",
+      "git_blob_sha1": "7698af5d1d463344924ec2a9cd27c71f3d784dbe",
+      "sha256": "77295e0f3686a76c9ab9b1cb478987a1859b09f39bb7fe493a3e28c9f4abfb02"
+    },
+    {
+      "path": "src/hooks/useSwarmStatus.ts",
+      "size_bytes": 667,
+      "encoding": "utf-8",
+      "git_blob_sha1": "2b03d869858a74abb1d90e3475d509d1f0f2fe98",
+      "sha256": "9a1e12d4962d52a87557566a2ac61b278567c7286a68eb8e4beaac3b67a6e0ad"
+    },
+    {
+      "path": "src/lib/agent-identity.ts",
+      "size_bytes": 2105,
+      "encoding": "utf-8",
+      "git_blob_sha1": "65f0fc814a038e34598df87ba12a64c850cd310c",
+      "sha256": "5d24ebf65afa1786da36f7d34a476bbe88f574f5103e03007d99f3cb61f8506e"
+    },
+    {
+      "path": "src/lib/api-client.ts",
+      "size_bytes": 21830,
+      "encoding": "utf-8",
+      "git_blob_sha1": "2365c7626829e95a68d66cf2b7b1aa2980269c2d",
+      "sha256": "c09459047cb1853461e1964152dd2cd1d9498b0e9faad2e732a6cf1912cf7772"
+    },
+    {
+      "path": "src/lib/compute-worker.ts",
+      "size_bytes": 2935,
+      "encoding": "utf-8",
+      "git_blob_sha1": "6205098d0190691e831a4b0e88c92df9d5e92085",
+      "sha256": "2252c5266bf6f09e2e6cc7778b5fdf2939afd837c83d03c8613d695f7e981819"
+    },
+    {
+      "path": "src/lib/did.ts",
+      "size_bytes": 2977,
+      "encoding": "utf-8",
+      "git_blob_sha1": "222ff04a6c8d9ce803c67892c013d7a7c72ef642",
+      "sha256": "a30859b0796463123b533389f22bf0514e6eb58adc33436a9f31c506f08086cb"
+    },
+    {
+      "path": "src/lib/gun-client.ts",
+      "size_bytes": 3959,
+      "encoding": "utf-8",
+      "git_blob_sha1": "bab0f53a74efbed59be4a14334666ea5949ef0a2",
+      "sha256": "805ee35307defc8c7215d3258b90cc5ab7ce9df70ef22e564ec10d377a79e790"
+    },
+    {
+      "path": "src/lib/helia-node.ts",
+      "size_bytes": 11454,
+      "encoding": "utf-8",
+      "git_blob_sha1": "d18089d4fd49f36a01a8d9bc7e240c3e655abde2",
+      "sha256": "609068e5fed72ad2e8668ca008d2aa8e4b364b08b991f24857218770debe3da9"
+    },
+    {
+      "path": "src/lib/markdown.ts",
+      "size_bytes": 2108,
+      "encoding": "utf-8",
+      "git_blob_sha1": "0fc6dad85db9799f04dde19c989936ac8cc42054",
+      "sha256": "6e29bfe9103006ddd58b2c072d7a89b2936bfe761221b2239fca90cc0751a089"
+    },
+    {
+      "path": "src/lib/peers.ts",
+      "size_bytes": 2587,
+      "encoding": "utf-8",
+      "git_blob_sha1": "756cf701a3ec04fd664ddf481c78a66bb452b94a",
+      "sha256": "77ee43f1763b559eb6960ff802e1b8f3bfd9e5c50c0323ac66760604da35214c"
+    },
+    {
+      "path": "src/lib/proxy.ts",
+      "size_bytes": 3605,
+      "encoding": "utf-8",
+      "git_blob_sha1": "bf1c43ba5e447b7001582d694fdf15811a0362ca",
+      "sha256": "d4d2c4898c12636483f3022d0c62d24e7389e8c752df9f8f58f9a938b2389a63"
+    },
+    {
+      "path": "src/lib/query-client.ts",
+      "size_bytes": 550,
+      "encoding": "utf-8",
+      "git_blob_sha1": "4d5a2ea2705f2b03f97737dd3b529b4110fb69b5",
+      "sha256": "d39690d680632f5a5415e6454a64d3eb22a88d502a39b7eae33a928afe73771e"
+    },
+    {
+      "path": "src/lib/sw-manager.ts",
+      "size_bytes": 1986,
+      "encoding": "utf-8",
+      "git_blob_sha1": "513128b5dde720972f7902e3e3e8fa3f91beaa9c",
+      "sha256": "ecdc88f4860bfb840667b8c6506a4f513f155da353b02ecc707314f78f049589"
+    },
+    {
+      "path": "src/lib/swarm-metrics.ts",
+      "size_bytes": 1949,
+      "encoding": "utf-8",
+      "git_blob_sha1": "361466d3b3ae7699bf4a27e1fe23b78cfe2166d6",
+      "sha256": "a84ac65befc485a37ce4f4c8c9cb84985a7241d4e0d69db4ae198c38bca4b71f"
+    },
+    {
+      "path": "src/lib/utils.ts",
+      "size_bytes": 166,
+      "encoding": "utf-8",
+      "git_blob_sha1": "bd0c391ddd1088e9067844c48835bf4abcd61783",
+      "sha256": "7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d"
+    },
+    {
+      "path": "src/lib/webmcp.ts",
+      "size_bytes": 9043,
+      "encoding": "utf-8",
+      "git_blob_sha1": "899c26bc476ee622517ea58dcb07350e8d5bd42d",
+      "sha256": "74e64c3b7441ddd6cd5b18ea93c3be7a73a8ca5dbabfc83539f9983fab091752"
+    },
+    {
+      "path": "src/lib/yjs-provider.ts",
+      "size_bytes": 1491,
+      "encoding": "utf-8",
+      "git_blob_sha1": "6dd9b8c7200685aa9a2ee6eae9094608fa7e7c6a",
+      "sha256": "3b2658f207c44469abc1ddab0d07f8a2f3303d7d5f5c84e7b5f0f84cba1c25d9"
+    },
+    {
+      "path": "src/providers/AppProviders.tsx",
+      "size_bytes": 681,
+      "encoding": "utf-8",
+      "git_blob_sha1": "2bfdb9a3cb8589f38499c5027cca35057d00e1df",
+      "sha256": "931f976bbd2707689614155272cae5bda07a6d134925ebbf054b88dab929f8ed"
+    },
+    {
+      "path": "src/providers/GunProvider.tsx",
+      "size_bytes": 4474,
+      "encoding": "utf-8",
+      "git_blob_sha1": "edae13971018cf9ab649b2fee1abe243356e9edc",
+      "sha256": "a33260a374542e09089dcee3baa0dfd724ca0734a3f39cc974c2ecf867cf9217"
+    },
+    {
+      "path": "src/providers/P2PProvider.tsx",
+      "size_bytes": 3002,
+      "encoding": "utf-8",
+      "git_blob_sha1": "61fdec09fe4b9d4a21e69c29d52cd13cfdfccfad",
+      "sha256": "7ce398b2e72b270bd08f9aad8ce9a266965f8fb54f88cd4dc9ea3aaafe719998"
+    },
+    {
+      "path": "src/providers/QueryProvider.tsx",
+      "size_bytes": 572,
+      "encoding": "utf-8",
+      "git_blob_sha1": "9a9b0013f56dded359f519bbb10cb0fb80730db5",
+      "sha256": "d222788f59701449bdcfb3e8c672e529a8eff917707f80d32b963c15a541f8c3"
+    },
+    {
+      "path": "src/providers/WebMCPProvider.tsx",
+      "size_bytes": 765,
+      "encoding": "utf-8",
+      "git_blob_sha1": "86962c9d281d76781175a9ade9580c212e236dfb",
+      "sha256": "b9034ef4a14c697a3c27a1db01b4ea44a4b69306a1324759078e701933fe36ef"
+    },
+    {
+      "path": "src/store/agentStore.ts",
+      "size_bytes": 2218,
+      "encoding": "utf-8",
+      "git_blob_sha1": "0f1fe1151ab10bc6757f5bbdbdc133a2f4309002",
+      "sha256": "8fad4f26d22c625e4962d6925581cd0ab6dbd2298f62c405ca482ecaab2d7e97"
+    },
+    {
+      "path": "src/store/uiStore.ts",
+      "size_bytes": 968,
+      "encoding": "utf-8",
+      "git_blob_sha1": "b6286570f3a2d27d802f49a3522e86629086f4d5",
+      "sha256": "75f24088024302f6fa382dcdea74a0e0b89bf4e3d4b6ff9dcf7fbbaca8617026"
+    },
+    {
+      "path": "src/types/api.ts",
+      "size_bytes": 7167,
+      "encoding": "utf-8",
+      "git_blob_sha1": "1bbf0de46fd5a01855e87c87d1b70556b206171a",
+      "sha256": "56eb23cec6f7416186b795e10ccc6a870c2d876b3be9ad77c586205dc60a6610"
+    },
+    {
+      "path": "src/types/network.ts",
+      "size_bytes": 1288,
+      "encoding": "utf-8",
+      "git_blob_sha1": "38b596d2a7ac1ecfeb4a9ece7df970d9d9cefbac",
+      "sha256": "05518ec3bc043d6c01f5a55a327143b6a2bf8b1380a57bb8ee4dd9e9be6b9bf5"
+    },
+    {
+      "path": "tsconfig.json",
+      "size_bytes": 670,
+      "encoding": "utf-8",
+      "git_blob_sha1": "cf9c65d3e0676a0169374d827f7abb97497789ef",
+      "sha256": "5c51df4c59f4510d8c7dadf07a5c32132228826a3b331da5e286207b4df7ef9c"
+    },
+    {
+      "path": "vercel.json",
+      "size_bytes": 1241,
+      "encoding": "utf-8",
+      "git_blob_sha1": "c3ea95655d0049543798d3359c012bbe2351ffff",
+      "sha256": "69944c430f5f3c20d3f9851a929b5740c3977414c891917a1cfb4808420d929e"
+    }
+  ],
+  "distinctive_original_excerpts": [
+    {
+      "path": "PAPER_QUALITY_FIX.md",
+      "line_in_baseline": 6,
+      "excerpt": "**Preparado por:** ClawOS Diagnostic Agent"
+    },
+    {
+      "path": "PROTOCOL.md",
+      "line_in_baseline": 5,
+      "excerpt": "P2PCLAW is a distributed intelligence network designed to solve complex global problems through massive collaboration. Our golden rule is efficiency: **\"We do not reinvent the wheel; we improve it together.\"**"
+    },
+    {
+      "path": "src/lib/peers.ts",
+      "line_in_baseline": 15,
+      "excerpt": "export const BOOTSTRAP_PEERS: string[] = ["
+    },
+    {
+      "path": "public/workers/validator.worker.js",
+      "line_in_baseline": 12,
+      "excerpt": "async function verifyDIDSignatureAsync(paper) {"
+    },
+    {
+      "path": "paperclaw/core/index.js",
+      "line_in_baseline": 32,
+      "excerpt": "const DEFAULT_API_BASE = 'https://www.p2pclaw.com/api';"
+    },
+    {
+      "path": "paperclaw/integrations/autogen/paperclaw_tool.py",
+      "line_in_baseline": 2,
+      "excerpt": "PaperClaw tool for AutoGen (AG2) agents."
+    }
+  ]
+}

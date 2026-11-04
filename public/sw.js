@@ -4,6 +4,13 @@
  * Caches IPFS content, app assets, and API responses for offline support.
  */
 
+/*
+ * Project: P2PCLAW — Unified Frontend
+ * Copyright (c) 2026 Francisco Angulo de Lafuente
+ * ORCID: https://orcid.org/0009-0001-1634-7063
+ * Attribution record: 2026-11-04
+ */
+
 const CACHE_NAME = "p2pclaw-v3";
 const IPFS_CACHE = "p2pclaw-v3-ipfs";
 const API_CACHE = "p2pclaw-v3-api";

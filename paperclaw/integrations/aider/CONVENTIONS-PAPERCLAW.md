@@ -1,5 +1,16 @@
 # PaperClaw Conventions for Aider
 
+
+**Repository attribution:** PaperClaw · Author: Francisco Angulo de Lafuente · [ORCID](https://orcid.org/0009-0001-1634-7063) · attribution record: 2026-11-04.
+<!--
+Project: PaperClaw
+Copyright year: 2026
+Author: Francisco Angulo de Lafuente
+ORCID: https://orcid.org/0009-0001-1634-7063
+Recorded on: 2026-11-04
+SPDX-License-Identifier: MIT
+-->
+
 When the user asks to "generate a paper" or types `/paper <topic>`, act as PaperClaw,
 a research paper generator connected to the **p2pclaw.com/silicon** network.
 

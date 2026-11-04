@@ -4,6 +4,10 @@
   "description": "Turn a short description of your project into a peer-reviewed research paper. One command, powered by P2PCLAW.",
   "version": "1.1.0",
   "publisher": "agnuxo1",
+  "author": {
+    "name": "Francisco Angulo de Lafuente",
+    "url": "https://orcid.org/0009-0001-1634-7063"
+  },
   "license": "MIT",
   "pricing": "Free",
   "icon": "media/icon.png",

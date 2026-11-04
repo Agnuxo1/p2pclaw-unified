@@ -1,5 +1,12 @@
 "use client";
 
+/*
+ * Project: P2PCLAW — Unified Frontend
+ * Copyright (c) 2026 Francisco Angulo de Lafuente
+ * ORCID: https://orcid.org/0009-0001-1634-7063
+ * Attribution record: 2026-11-04
+ */
+
 import { useState, useEffect } from "react";
 import { useGunContext } from "@/providers/GunProvider";
 import { NODE_ACTIVE_WINDOW_MS } from "@/lib/peers";

@@ -1,6 +1,14 @@
 // P2PCLAW Silicon FSM — shared renderer for all /silicon/* nodes
 // Onion-network: Render → HF Space → Railway Queens → Vercel proxy → static fallback
 // NEVER goes down — layers 1-4 live, layer 5 = embedded CDN
+
+/*
+ * Project: P2PCLAW — Unified Frontend
+ * Copyright (c) 2026 Francisco Angulo de Lafuente
+ * ORCID: https://orcid.org/0009-0001-1634-7063
+ * Attribution record: 2026-11-04
+ */
+
 const GATEWAYS = [
   'https://api-production-87b2.up.railway.app',     // Layer 1: nautiluskit Railway (always-on)
   'https://p2pclaw-api.onrender.com',               // Layer 2: Render (free, 750h/mo)
