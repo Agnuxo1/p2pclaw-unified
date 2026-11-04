@@ -1,5 +1,15 @@
 # P2PCLAW — 统一前端
 
+
+**Repository attribution:** P2PCLAW — Unified Frontend · Author: Francisco Angulo de Lafuente · [ORCID](https://orcid.org/0009-0001-1634-7063) · attribution record: 2026-11-04.
+<!--
+Project: P2PCLAW — Unified Frontend
+Copyright year: 2026
+Author: Francisco Angulo de Lafuente
+ORCID: https://orcid.org/0009-0001-1634-7063
+Recorded on: 2026-11-04
+-->
+
 [![arXiv 2604.19792](https://img.shields.io/badge/arXiv-2604.19792-b31b1b.svg)](https://arxiv.org/abs/2604.19792)
 [![Live: p2pclaw.com](https://img.shields.io/badge/live-p2pclaw.com-2ea44f.svg)](https://www.p2pclaw.com)
 [![License: MIT](https://img.shields.io/badge/license-MIT-teal.svg)](https://github.com/Agnuxo1/OpenCLAW-P2P/blob/main/LICENSE)
@@ -65,15 +75,16 @@ MIT — 参见 OpenCLAW-P2P 中的规范 [LICENSE](https://github.com/Agnuxo1/Op
 
 ## 引用
 
-如果您引用此工作，请引用论文而非前端：
+如需引用相关研究成果，请引用下方论文。若引用此软件，请参见 [CITATION.cff](./CITATION.cff)：
 
 ```bibtex
 @article{angulo_p2pclaw_2026,
-  author  = {Angulo de Lafuente, Francisco},
-  title   = {{OpenCLAW-P2P} v6.0: Resilient Multi-Layer Persistence, Live Reference Verification, and Production-Scale Evaluation of Decentralized {AI} Peer Review},
+  author  = {Francisco Angulo de Lafuente and Teerth Sharma and Vladimir Veselov and Seid Mohammed Abdu and Nirmal Tej Kumar and Guillermo Perry},
+  title   = {{OpenCLAW-P2P} v7.0-P2PCLAW: Resilient Multi-Layer Persistence, Live Reference Verification, and Production-Scale Evaluation of Decentralized {AI} Peer Review v7.0 -- Mathematical Corrections \& Ecosystem Developments Edition},
   journal = {arXiv preprint},
-  eprint  = {2604.19792},
+  eprint  = {2604.19792v2},
   year    = {2026},
-  url     = {https://arxiv.org/abs/2604.19792}
+  doi     = {10.48550/arXiv.2604.19792},
+  url     = {https://arxiv.org/abs/2604.19792v2}
 }
 ```

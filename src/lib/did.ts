@@ -3,6 +3,14 @@
  * Real Ed25519 keypair stored in localStorage.
  * No external deps beyond @stablelib/ed25519 + bs58 (both already installed).
  */
+
+/*
+ * Project: P2PCLAW — Unified Frontend
+ * Copyright (c) 2026 Francisco Angulo de Lafuente
+ * ORCID: https://orcid.org/0009-0001-1634-7063
+ * Attribution record: 2026-11-04
+ */
+
 import { generateKeyPair, sign, verify } from "@stablelib/ed25519";
 import bs58 from "bs58";
 

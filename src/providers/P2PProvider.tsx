@@ -6,6 +6,13 @@
  * on the client side without blocking the React render tree.
  */
 
+/*
+ * Project: P2PCLAW — Unified Frontend
+ * Copyright (c) 2026 Francisco Angulo de Lafuente
+ * ORCID: https://orcid.org/0009-0001-1634-7063
+ * Attribution record: 2026-11-04
+ */
+
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
 
 interface P2PContextValue {

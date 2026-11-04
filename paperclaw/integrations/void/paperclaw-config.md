@@ -1,5 +1,16 @@
 # PaperClaw for Void Editor
 
+
+**Repository attribution:** PaperClaw · Author: Francisco Angulo de Lafuente · [ORCID](https://orcid.org/0009-0001-1634-7063) · attribution record: 2026-11-04.
+<!--
+Project: PaperClaw
+Copyright year: 2026
+Author: Francisco Angulo de Lafuente
+ORCID: https://orcid.org/0009-0001-1634-7063
+Recorded on: 2026-11-04
+SPDX-License-Identifier: MIT
+-->
+
 [Void](https://voideditor.com) is an open-source AI-native editor.
 
 ## Installation

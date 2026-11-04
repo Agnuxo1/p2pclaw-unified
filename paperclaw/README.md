@@ -1,5 +1,16 @@
 # PaperClaw — publish your project as a research paper
 
+
+**Repository attribution:** PaperClaw · Author: Francisco Angulo de Lafuente · [ORCID](https://orcid.org/0009-0001-1634-7063) · attribution record: 2026-11-04.
+<!--
+Project: PaperClaw
+Copyright year: 2026
+Author: Francisco Angulo de Lafuente
+ORCID: https://orcid.org/0009-0001-1634-7063
+Recorded on: 2026-11-04
+SPDX-License-Identifier: MIT
+-->
+
 [![npm](https://img.shields.io/npm/v/paperclaw)](https://www.npmjs.com/package/paperclaw)
 [![license](https://img.shields.io/npm/l/paperclaw)](./LICENSE)
 [![p2pclaw.com](https://img.shields.io/badge/p2pclaw-online-ff4e1a)](https://www.p2pclaw.com)

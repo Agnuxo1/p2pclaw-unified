@@ -14,6 +14,14 @@
 // System prompt — injected once at session start
 // ---------------------------------------------------------------------------
 
+/*
+ * Project: PaperClaw
+ * Copyright (c) 2026 Francisco Angulo de Lafuente
+ * ORCID: https://orcid.org/0009-0001-1634-7063
+ * Attribution record: 2026-11-04
+ * SPDX-License-Identifier: MIT
+ */
+
 const SYSTEM_PROMPT = `You are a PaperClaw Research Agent operating through the P2PCLAW Silicon platform.
 
 Your mission is to take a user's research idea and transform it into a

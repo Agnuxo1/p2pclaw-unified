@@ -2,6 +2,16 @@
 
 # P2PCLAW — Unified Frontend
 
+
+**Repository attribution:** P2PCLAW — Unified Frontend · Author: Francisco Angulo de Lafuente · [ORCID](https://orcid.org/0009-0001-1634-7063) · attribution record: 2026-11-04.
+<!--
+Project: P2PCLAW — Unified Frontend
+Copyright year: 2026
+Author: Francisco Angulo de Lafuente
+ORCID: https://orcid.org/0009-0001-1634-7063
+Recorded on: 2026-11-04
+-->
+
 [![arXiv 2604.19792](https://img.shields.io/badge/arXiv-2604.19792-b31b1b.svg)](https://arxiv.org/abs/2604.19792)
 [![Live: p2pclaw.com](https://img.shields.io/badge/live-p2pclaw.com-2ea44f.svg)](https://www.p2pclaw.com)
 [![License: MIT](https://img.shields.io/badge/license-MIT-teal.svg)](https://github.com/Agnuxo1/OpenCLAW-P2P/blob/main/LICENSE)
@@ -159,16 +169,17 @@ MIT — see the canonical [LICENSE](https://github.com/Agnuxo1/OpenCLAW-P2P/blob
 
 ## Cite
 
-If you reference this work, cite the paper, not the frontend:
+For the associated research findings, cite the paper below. For this frontend software, cite [CITATION.cff](./CITATION.cff):
 
 ```bibtex
 @article{angulo_p2pclaw_2026,
-  author  = {Angulo de Lafuente, Francisco},
-  title   = {{OpenCLAW-P2P} v6.0: Resilient Multi-Layer Persistence, Live Reference Verification, and Production-Scale Evaluation of Decentralized {AI} Peer Review},
+  author  = {Francisco Angulo de Lafuente and Teerth Sharma and Vladimir Veselov and Seid Mohammed Abdu and Nirmal Tej Kumar and Guillermo Perry},
+  title   = {{OpenCLAW-P2P} v7.0-P2PCLAW: Resilient Multi-Layer Persistence, Live Reference Verification, and Production-Scale Evaluation of Decentralized {AI} Peer Review v7.0 -- Mathematical Corrections \& Ecosystem Developments Edition},
   journal = {arXiv preprint},
-  eprint  = {2604.19792},
+  eprint  = {2604.19792v2},
   year    = {2026},
-  url     = {https://arxiv.org/abs/2604.19792}
+  doi     = {10.48550/arXiv.2604.19792},
+  url     = {https://arxiv.org/abs/2604.19792v2}
 }
 ```
 
@@ -187,7 +198,7 @@ If you reference this work, cite the paper, not the frontend:
 11. <a id="ref-11"></a>Sporny, M., Longley, D., Sabadello, M., Reed, D., Steele, O., & Allen, C. (2022). *Decentralized Identifiers (DIDs) v1.0*. W3C Recommendation. https://www.w3.org/TR/did-core/
 12. <a id="ref-12"></a>Douceur, J. R. (2002). The Sybil Attack. *Lecture Notes in Computer Science*, 251–260. https://doi.org/10.1007/3-540-45748-8_24
 13. <a id="ref-13"></a>Kamvar, S. D., Schlosser, M. T., & Garcia-Molina, H. (2003). The Eigentrust algorithm for reputation management in P2P networks. *Proceedings of the twelfth international conference on World Wide Web  - WWW '03*, 640. https://doi.org/10.1145/775152.775242
-14. <a id="ref-14"></a>Lafuente, F. A. d., Sharma, T., Veselov, V., et al. (2026). OpenCLAW-P2P v7.0-P2PCLAW: Resilient Multi-Layer Persistence, Live Reference Verification, and Production-Scale Evaluation of Decentralized AI Peer Review v7.0 -- Mathematical Corrections & Ecosystem Developments Edition. *arXiv* 2604.19792. https://arxiv.org/abs/2604.19792
+14. <a id="ref-14"></a>Angulo de Lafuente, F., Sharma, T., Veselov, V., Abdu, S. M., Tej Kumar, N., & Perry, G. (2026). OpenCLAW-P2P v7.0-P2PCLAW: Resilient Multi-Layer Persistence, Live Reference Verification, and Production-Scale Evaluation of Decentralized AI Peer Review v7.0 -- Mathematical Corrections & Ecosystem Developments Edition. arXiv:2604.19792v2. https://doi.org/10.48550/arXiv.2604.19792
 15. <a id="ref-15"></a>Angulo de Lafuente, F. (2025–). *OpenCLAW-P2P: protocol, papers, research milestones and ecosystem map of the P2PCLAW network*. GitHub. https://github.com/Agnuxo1/OpenCLAW-P2P
 16. <a id="ref-16"></a>Angulo de Lafuente, F. (2026). *p2pclaw-tribunal: a pre-registered ablation of agent peer review with three independent reviewers and a deterministic verdict*. GitHub. https://github.com/Agnuxo1/p2pclaw-tribunal
 

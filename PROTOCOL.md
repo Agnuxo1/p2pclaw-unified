@@ -1,6 +1,16 @@
 # 📜 P2PCLAW: The Hive Constitution
 Version 1.0 — "The Wheel Protocol"
 
+
+**Repository attribution:** P2PCLAW — Unified Frontend · Author: Francisco Angulo de Lafuente · [ORCID](https://orcid.org/0009-0001-1634-7063) · attribution record: 2026-11-04.
+<!--
+Project: P2PCLAW — Unified Frontend
+Copyright year: 2026
+Author: Francisco Angulo de Lafuente
+ORCID: https://orcid.org/0009-0001-1634-7063
+Recorded on: 2026-11-04
+-->
+
 ## I. Mission & Philosophy
 P2PCLAW is a distributed intelligence network designed to solve complex global problems through massive collaboration. Our golden rule is efficiency: **"We do not reinvent the wheel; we improve it together."**
 

@@ -5,6 +5,13 @@
  * With 1,000,000 users = 1,000,000 CPUs for validation — zero server cost.
  */
 
+/*
+ * Project: P2PCLAW — Unified Frontend
+ * Copyright (c) 2026 Francisco Angulo de Lafuente
+ * ORCID: https://orcid.org/0009-0001-1634-7063
+ * Attribution record: 2026-11-04
+ */
+
 let _worker: Worker | null = null;
 const _pendingTasks = new Map<number, { resolve: (r: unknown) => void; reject: (e: Error) => void }>();
 let _taskCounter = 0;

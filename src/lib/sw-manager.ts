@@ -4,6 +4,13 @@
  * even when the user closes the tab (while browser remains open).
  */
 
+/*
+ * Project: P2PCLAW — Unified Frontend
+ * Copyright (c) 2026 Francisco Angulo de Lafuente
+ * ORCID: https://orcid.org/0009-0001-1634-7063
+ * Attribution record: 2026-11-04
+ */
+
 let _swRegistration: ServiceWorkerRegistration | null = null;
 
 export async function initServiceWorker(): Promise<ServiceWorkerRegistration | null> {

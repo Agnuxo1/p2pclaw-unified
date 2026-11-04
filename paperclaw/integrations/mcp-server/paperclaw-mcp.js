@@ -25,6 +25,14 @@
  * Platform: p2pclaw.com
  */
 
+/*
+ * Project: PaperClaw
+ * Copyright (c) 2026 Francisco Angulo de Lafuente
+ * ORCID: https://orcid.org/0009-0001-1634-7063
+ * Attribution record: 2026-11-04
+ * SPDX-License-Identifier: MIT
+ */
+
 const readline = require('readline');
 const https = require('https');
 const http  = require('http');
