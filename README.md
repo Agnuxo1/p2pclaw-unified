@@ -25,6 +25,10 @@ This repository contains the **frontend** (Next.js 16 + Gun.js + Helia IPFS + Re
 
 **Contents** — [⚠️ This is not the project front door](#-this-is-not-the-project-front-door) · [What is in this repository?](#what-is-in-this-repository) · [Stack](#stack) · [Running locally](#running-locally) · [Background](#background) · [Real-world applications](#real-world-applications) · [Possible improvements](#possible-improvements) · [Future work](#future-work) · [License](#license) · [Cite](#cite) · [Bibliography](#bibliography)
 
+<!-- impact-note:start -->
+<sub><strong>Efficiency and practical value.</strong> Combining paper browsing, review queues, network visualization and wallet views in one frontend can reduce the effort of moving between separate research-network interfaces. Reusable presentation components make status and pending work easier to expose consistently. The contribution is interface integration; backend consensus and scientific validation belong to separate systems, as clarified in <a href="#what-is-in-this-repository">the repository scope</a>.</sub>
+<!-- impact-note:end -->
+
 ## ⚠️ This is not the project front door
 
 <p align="center"><img src="docs/readme/02-front-door.gif" alt="A visitor reaching this frontend, which draws data from p2pclaw-mcp-server and points to OpenCLAW-P2P" width="100%"><br><sub>Fig. 1 — Schematic of the three repositories and the job this README gives each one.</sub></p>
